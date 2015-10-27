@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "9"
+	"mapversion" "12"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "12"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -48611,7 +48611,7 @@ entity
 entity
 {
 	"id" "1378"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 0 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -48620,6 +48620,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -48635,7 +48636,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-512 -9648 36.0107"
 	editor
 	{
@@ -49296,7 +49296,7 @@ entity
 entity
 {
 	"id" "1397"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 270 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -49305,6 +49305,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -49320,7 +49321,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-944 -7936 36.0107"
 	editor
 	{
@@ -49915,7 +49915,7 @@ entity
 entity
 {
 	"id" "1414"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 270 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -49924,6 +49924,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -49939,7 +49940,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "1584 -9760 36.0107"
 	editor
 	{
@@ -52219,7 +52219,7 @@ entity
 entity
 {
 	"id" "1474"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 270 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -52228,6 +52228,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -52243,7 +52244,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-1200 -7936 36.0107"
 	editor
 	{
@@ -53935,7 +53935,7 @@ entity
 entity
 {
 	"id" "1524"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 270 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -53944,6 +53944,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -53959,7 +53960,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-176 -8192 36.0107"
 	editor
 	{
@@ -56760,7 +56760,7 @@ entity
 entity
 {
 	"id" "1591"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 90 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -56769,6 +56769,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -56784,7 +56785,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-304 -8672 36.0107"
 	editor
 	{
@@ -63085,7 +63085,7 @@ entity
 entity
 {
 	"id" "1756"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 0 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -63094,6 +63094,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -63109,7 +63110,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-2048 -9136 36.0107"
 	editor
 	{
@@ -63770,7 +63770,7 @@ entity
 entity
 {
 	"id" "1775"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 180 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -63779,6 +63779,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -63794,7 +63795,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "256 -8272 36.0107"
 	editor
 	{
@@ -64389,7 +64389,7 @@ entity
 entity
 {
 	"id" "1792"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 270 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -64398,6 +64398,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -64413,7 +64414,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-720 -7968 36.0107"
 	editor
 	{
@@ -65436,7 +65436,7 @@ entity
 entity
 {
 	"id" "1823"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 90 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -65445,6 +65445,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -65460,7 +65461,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-3120 -9440 36.0107"
 	editor
 	{
@@ -66483,7 +66483,7 @@ entity
 entity
 {
 	"id" "1854"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 0 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -66492,6 +66492,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -66507,7 +66508,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-2016 -8912 36.0107"
 	editor
 	{
@@ -67530,7 +67530,7 @@ entity
 entity
 {
 	"id" "1885"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 90 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -67539,6 +67539,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -67554,7 +67555,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "976 -9952 36.0107"
 	editor
 	{
@@ -68731,7 +68731,7 @@ entity
 entity
 {
 	"id" "1920"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 0 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -68740,6 +68740,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -68755,7 +68756,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-1280 -8368 36.0107"
 	editor
 	{
@@ -69350,7 +69350,7 @@ entity
 entity
 {
 	"id" "1937"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 270 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -69359,6 +69359,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -69374,7 +69375,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "1584 -9504 36.0107"
 	editor
 	{
@@ -78738,7 +78738,7 @@ entity
 entity
 {
 	"id" "2236"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 270 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -78747,6 +78747,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -78762,7 +78763,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "514 -5924 22"
 	editor
 	{
@@ -78862,7 +78862,7 @@ entity
 entity
 {
 	"id" "2241"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 270 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -78871,6 +78871,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -78886,7 +78887,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "362 -5924 22"
 	editor
 	{
@@ -88913,7 +88913,7 @@ entity
 entity
 {
 	"id" "2603"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 270 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -88922,6 +88922,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -88937,7 +88938,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "79.9999 -5888 36.0107"
 	editor
 	{
@@ -123208,7 +123208,7 @@ entity
 entity
 {
 	"id" "3730"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 270 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -123217,6 +123217,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -123232,7 +123233,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "4139.21 -4801.25 191.648"
 	editor
 	{
@@ -123245,7 +123245,7 @@ entity
 entity
 {
 	"id" "3731"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 270 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -123254,6 +123254,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -123269,7 +123270,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "3987.21 -4801.25 191.648"
 	editor
 	{
@@ -128606,7 +128606,7 @@ entity
 entity
 {
 	"id" "3953"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 270 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -128615,6 +128615,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -128630,7 +128631,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "1104 -4352 36.0107"
 	editor
 	{
@@ -129225,7 +129225,7 @@ entity
 entity
 {
 	"id" "3970"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 270 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -129234,6 +129234,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -129249,7 +129250,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "1584 -4384 36.0107"
 	editor
 	{
@@ -131375,7 +131375,7 @@ entity
 entity
 {
 	"id" "4026"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 0 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -131384,6 +131384,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -131399,7 +131400,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "1312 -4304 36.0107"
 	editor
 	{
@@ -133525,7 +133525,7 @@ entity
 entity
 {
 	"id" "4082"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 270 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -133534,6 +133534,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -133549,7 +133550,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "816 -7200 36.0107"
 	editor
 	{
@@ -134638,7 +134638,7 @@ entity
 entity
 {
 	"id" "4115"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 180 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -134647,6 +134647,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -134662,7 +134663,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "4608 -5712 36.0107"
 	editor
 	{
@@ -135257,7 +135257,7 @@ entity
 entity
 {
 	"id" "4132"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 90 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -135266,6 +135266,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -135281,7 +135282,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "464 -4576 36.0107"
 	editor
 	{
@@ -136370,7 +136370,7 @@ entity
 entity
 {
 	"id" "4165"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 180 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -136379,6 +136379,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -136394,7 +136395,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "1536 -4688 36.0107"
 	editor
 	{
@@ -137077,7 +137077,7 @@ entity
 entity
 {
 	"id" "4184"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 90 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -137086,6 +137086,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -137101,7 +137102,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "720 -5600 36.0107"
 	editor
 	{
@@ -138190,7 +138190,7 @@ entity
 entity
 {
 	"id" "4217"
-	"classname" "prop_dynamic"
+	"classname" "prop_dynamic_override"
 	"angles" "0 0 0"
 	"DisableBoneFollowers" "1"
 	"disablereceiveshadows" "0"
@@ -138199,6 +138199,7 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"health" "0"
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
@@ -138214,7 +138215,6 @@ entity
 	"skin" "0"
 	"solid" "2"
 	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "0 -7344 36.0107"
 	editor
 	{
@@ -139027,13 +139027,181 @@ entity
 		"logicalpos" "[1000 -15768]"
 	}
 }
+entity
+{
+	"id" "23827"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-288 -9778.67 64"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "23830"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-1088 -8366.81 96"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "23833"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "64 -6460.11 64"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "23836"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "1152 -5690.81 64"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "23839"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "3712 -5200.86 192"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "23842"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "4416 -5280 64"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "23845"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "608 -4882.51 64"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "23848"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "1174.87 -6528 64"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "23851"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-64 -8696.25 64"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "23854"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-1344 -9488.27 96"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "23857"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "1312 -10016 64"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "23860"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "256 -9920 64"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[2651.4 -7200 773.982]"
-		"look" "[2578.93 -6996.45 619.3]"
+		"position" "[94.8132 -8382.44 479.261]"
+		"look" "[-74.2969 -8499.95 311.318]"
 	}
 }
 cordons
