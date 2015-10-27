@@ -7,4 +7,6 @@
 	"asw_credits_"	"Created by Dmitriy"
 	"asw_credits_"	""
 	"asw_credits_"	"Thanks to asw_tilegen"
+	"asw_credits_"	""
+	"asw_credits_"	"Custom textures taken from Half-Life 2"
 }
