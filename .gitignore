@@ -1,0 +1,11 @@
+*.bsp
+*.log
+*.map
+*.ncb
+*.pdb
+*.prt
+*.sdf
+*.suo
+*.user
+*.vmx
+*.vpk
