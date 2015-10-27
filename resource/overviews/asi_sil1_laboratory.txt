@@ -1,0 +1,16 @@
+GAME
+{
+	"pos_x"             -1944 //"-1044"
+	"pos_y"             "5926"
+	"scale"             "7.0"
+	//"mapyoffset" 		"-60"
+	"material"          "vgui/swarm/Computer/ComputerScan"
+	"briefingmaterial"  "vgui/swarm/MissionPics/UnknownMissionPic"	
+	"missiontitle"		"Laboratory"
+	"description"	    ""
+	"image"		        "swarm/MissionPics/UnknownMissionPic"
+	"version"		    "1.0"
+	"website"		    "https://sites.google.com/site/swarmaddons/maps/silent-corridors"
+}
+
+// Overview: scale 7.00, pos_x -1044, pos_y 5926
