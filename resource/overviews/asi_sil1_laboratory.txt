@@ -1,16 +1,16 @@
 GAME
 {
-	"pos_x"             -1944 //"-1044"
-	"pos_y"             "5926"
-	"scale"             "7.0"
+	"pos_x"             -4481 //"-1044"
+	"pos_y"             "-3230"
+	"scale"             "8.0"
 	//"mapyoffset" 		"-60"
-	"material"          "vgui/swarm/Computer/ComputerScan"
-	"briefingmaterial"  "vgui/swarm/MissionPics/UnknownMissionPic"	
+	"material"          "vgui/swarm/overviews/asi_sil1_laboratory_overview"
+	"briefingmaterial"  "vgui/swarm/overviews/asi_sil1_laboratory_overview"	
 	"missiontitle"		"Laboratory"
 	"description"	    ""
 	"image"		        "swarm/MissionPics/UnknownMissionPic"
-	"version"		    "1.0"
+	"version"		    "1.1"
 	"website"		    "https://sites.google.com/site/swarmaddons/maps/silent-corridors"
 }
 
-// Overview: scale 7.00, pos_x -1044, pos_y 5926
+// Overview: scale 8.00, pos_x -3457, pos_y -3230
