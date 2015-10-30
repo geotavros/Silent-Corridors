@@ -4,7 +4,7 @@
 {
      addonSteamAppID         630            
      addontitle              "Silent Corridors"
-     addonversion            1.0
+     addonversion            1.2
      addontagline            ""
      addonauthor             "Dmitriy"
      addonSteamGroupName     "" 
