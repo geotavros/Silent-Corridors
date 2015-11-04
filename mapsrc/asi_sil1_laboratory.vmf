@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "50"
+	"mapversion" "51"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "50"
+	"mapversion" "51"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2769,6 +2769,26 @@ world
 		editor
 		{
 			"color" "167 192 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "71661"
+		editor
+		{
+			"color" "180 209 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "71690"
+		editor
+		{
+			"color" "180 209 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -140671,6 +140691,7 @@ entity
 	connections
 	{
 		"OnEggDestroyed" "eggscounter01Add10-1"
+		"OnEggDestroyed" "biomass01_dronesStartSpawning0-1"
 	}
 	"origin" "1600 -9840 1.47205"
 	editor
@@ -144874,13 +144895,188 @@ entity
 		"logicalpos" "[0 1000]"
 	}
 }
+entity
+{
+	"id" "71635"
+	"classname" "prop_static"
+	"angles" "0 0 90"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/swarmprops/Lights/SmallLight2Red.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	"origin" "1469.15 -6399.33 155.289"
+	editor
+	{
+		"color" "180 209 0"
+		"groupid" "71661"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 15500]"
+	}
+}
+entity
+{
+	"id" "71639"
+	"classname" "env_sprite_clientside"
+	"framerate" "10.000000"
+	"GlowProxySize" "16"
+	"HDRColorScale" "1.000000"
+	"model" "materials/sprites/light_glow03.vmt"
+	"renderamt" "255"
+	"rendercolor" "183 0 0"
+	"rendermode" "9"
+	"scale" "0.500000"
+	"origin" "1468.55 -6403.65 157.548"
+	editor
+	{
+		"color" "180 209 0"
+		"groupid" "71661"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "71642"
+	"classname" "light"
+	"_light" "168 0 0 30"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "1469.55 -6407.05 147.548"
+	editor
+	{
+		"color" "180 209 0"
+		"groupid" "71661"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 15000]"
+	}
+}
+entity
+{
+	"id" "71691"
+	"classname" "prop_static"
+	"angles" "0 0 90"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/swarmprops/Lights/SmallLight2Red.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	"origin" "844.153 -6399.33 155.289"
+	editor
+	{
+		"color" "180 209 0"
+		"groupid" "71690"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 15500]"
+	}
+}
+entity
+{
+	"id" "71695"
+	"classname" "env_sprite_clientside"
+	"framerate" "10.000000"
+	"GlowProxySize" "16"
+	"HDRColorScale" "1.000000"
+	"model" "materials/sprites/light_glow03.vmt"
+	"renderamt" "255"
+	"rendercolor" "183 0 0"
+	"rendermode" "9"
+	"scale" "0.500000"
+	"origin" "843.554 -6403.65 157.548"
+	editor
+	{
+		"color" "180 209 0"
+		"groupid" "71690"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "71698"
+	"classname" "light"
+	"_light" "168 0 0 30"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "844.554 -6407.05 147.548"
+	editor
+	{
+		"color" "180 209 0"
+		"groupid" "71690"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 15000]"
+	}
+}
+entity
+{
+	"id" "71722"
+	"classname" "light"
+	"_light" "164 183 181 40"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "-309 -6587 128"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 12500]"
+	}
+}
+entity
+{
+	"id" "71740"
+	"classname" "light"
+	"_light" "164 183 181 40"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "119 -6083 128"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 12500]"
+	}
+}
+entity
+{
+	"id" "71758"
+	"classname" "light"
+	"_light" "164 183 181 40"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "552 -6551 128"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 12500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1701.71 -7111.21 1242.98]"
-		"look" "[1711.86 -6966.08 1020.64]"
+		"position" "[1133.81 -6388.03 685.403]"
+		"look" "[1138.49 -6164.73 541.465]"
 	}
 }
 cordons
