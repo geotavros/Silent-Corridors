@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+	$basetexture "VGUI/swarm/Overviews/asi_sil1_laboratory_briefing"
+	$vertexcolor 1
+	$vertexalpha 1
+	$no_fullbright 1
+	$ignorez 1
+}
+

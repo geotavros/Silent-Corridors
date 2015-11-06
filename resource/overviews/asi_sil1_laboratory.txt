@@ -5,7 +5,7 @@ GAME
 	"scale"             "8.0"
 	//"mapyoffset" 		"-60"
 	"material"          "vgui/swarm/overviews/asi_sil1_laboratory_overview"
-	"briefingmaterial"  "vgui/swarm/overviews/asi_sil1_laboratory_overview"	
+	"briefingmaterial"  "vgui/swarm/overviews/asi_sil1_laboratory_briefing"	
 	"missiontitle"		"Laboratory"
 	"description"	    ""
 	"image"		        "swarm/MissionPics/UnknownMissionPic"
