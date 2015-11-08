@@ -8,8 +8,8 @@ GAME
 	"briefingmaterial"  "vgui/swarm/overviews/asi_sil1_laboratory_briefing"	
 	"missiontitle"		"Laboratory"
 	"description"	    ""
-	"image"		        "swarm/MissionPics/UnknownMissionPic"
-	"version"		    "1.2"
+	"image"		        "swarm/objectivepics/silentcorridors1laboratory_eggs"
+	"version"		    "1.3"
 	"website"		    "https://sites.google.com/site/swarmaddons/maps/silent-corridors"
 }
 

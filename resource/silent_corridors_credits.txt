@@ -4,9 +4,9 @@
 	"show_credits_logo" "0"
 	//"custom_logo"	"credits_logo/extermination_credits_logo"
 	"asw_credits_"	""
-	"asw_credits_"	"Created by Dmitriy"
-	"asw_credits_"	""
-	"asw_credits_"	"Thanks to asw_tilegen"
-	"asw_credits_"	""
+	"asw_credits_"	"Created by Dmitriy"	
+	"asw_credits_"	"Thanks to asw_tilegen"	
 	"asw_credits_"	"Custom textures taken from Half-Life 2"
+	"asw_credits_"	"Minimap by Tumble_pig"
+	
 }

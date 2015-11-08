@@ -7,7 +7,7 @@ GAME
 	"CampaignDescription" ""
 	
 	// texture used on the main menu when choosing which campaign to play
-	"ChooseCampaignTexture" "swarm/campaign/jacob_galacticmap"
+	"ChooseCampaignTexture" "swarm/objectivepics/silentcorridors1laboratory_eggs"
 	
 	// texture used on the campaign screen for the map
 	"CampaignTextureName" "swarm/campaign/jacob_galacticmap"

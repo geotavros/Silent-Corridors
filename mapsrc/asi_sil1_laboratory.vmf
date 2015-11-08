@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "51"
+	"mapversion" "54"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "51"
+	"mapversion" "54"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2869,6 +2869,130 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5500 4500]"
+	}
+}
+entity
+{
+	"id" "71635"
+	"classname" "prop_static"
+	"angles" "0 0 90"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/swarmprops/Lights/SmallLight2Red.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	"origin" "1469.15 -6399.33 155.289"
+	editor
+	{
+		"color" "180 209 0"
+		"groupid" "71661"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 15500]"
+	}
+}
+entity
+{
+	"id" "71639"
+	"classname" "env_sprite_clientside"
+	"framerate" "10.000000"
+	"GlowProxySize" "16"
+	"HDRColorScale" "1.000000"
+	"model" "materials/sprites/light_glow03.vmt"
+	"renderamt" "255"
+	"rendercolor" "183 0 0"
+	"rendermode" "9"
+	"scale" "0.500000"
+	"origin" "1468.55 -6403.65 157.548"
+	editor
+	{
+		"color" "180 209 0"
+		"groupid" "71661"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "71642"
+	"classname" "light"
+	"_light" "168 0 0 30"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "1469.55 -6407.05 147.548"
+	editor
+	{
+		"color" "180 209 0"
+		"groupid" "71661"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 15000]"
+	}
+}
+entity
+{
+	"id" "71691"
+	"classname" "prop_static"
+	"angles" "0 0 90"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/swarmprops/Lights/SmallLight2Red.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	"origin" "844.153 -6399.33 155.289"
+	editor
+	{
+		"color" "180 209 0"
+		"groupid" "71690"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 15500]"
+	}
+}
+entity
+{
+	"id" "71695"
+	"classname" "env_sprite_clientside"
+	"framerate" "10.000000"
+	"GlowProxySize" "16"
+	"HDRColorScale" "1.000000"
+	"model" "materials/sprites/light_glow03.vmt"
+	"renderamt" "255"
+	"rendercolor" "183 0 0"
+	"rendermode" "9"
+	"scale" "0.500000"
+	"origin" "843.554 -6403.65 157.548"
+	editor
+	{
+		"color" "180 209 0"
+		"groupid" "71690"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "71698"
+	"classname" "light"
+	"_light" "168 0 0 30"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "844.554 -6407.05 147.548"
+	editor
+	{
+		"color" "180 209 0"
+		"groupid" "71690"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 15000]"
 	}
 }
 entity
@@ -82926,7 +83050,7 @@ entity
 	"targetname" "Room41_office_egg_counter_1"
 	connections
 	{
-		"OnHitMax" "Room41_office_egg_marker1Disable0-1"
+		"OnHitMax" "Room41_office_egg_marker1Kill0-1"
 	}
 	"origin" "-183.351 -6967.12 65"
 	editor
@@ -82948,7 +83072,7 @@ entity
 	"targetname" "Room41_office_egg_counter_2"
 	connections
 	{
-		"OnHitMax" "Room41_office_egg_marker2Disable0-1"
+		"OnHitMax" "Room41_office_egg_marker2Kill0-1"
 	}
 	"origin" "563.77 -6969.17 65"
 	editor
@@ -82970,7 +83094,7 @@ entity
 	"targetname" "Room41_office_egg_counter_3"
 	connections
 	{
-		"OnHitMax" "Room41_office_egg_marker3Disable0-1"
+		"OnHitMax" "Room41_office_egg_marker3Kill0-1"
 	}
 	"origin" "554 -6128 65"
 	editor
@@ -82992,7 +83116,7 @@ entity
 	"targetname" "Room41_office_egg_counter_4"
 	connections
 	{
-		"OnHitMax" "Room41_office_egg_marker4Disable0-1"
+		"OnHitMax" "Room41_office_egg_marker4Kill0-1"
 	}
 	"origin" "-227 -6155 65"
 	editor
@@ -87718,7 +87842,7 @@ entity
 	"targetname" "Room42_chokepoint_counter"
 	connections
 	{
-		"OnHitMax" "Room42_chokepoint_markerDisable0-1"
+		"OnHitMax" "Room42_chokepoint_markerKill0-1"
 	}
 	"origin" "1039.63 -5982.52 77"
 	editor
@@ -112772,7 +112896,7 @@ entity
 	"lightingorigin" "Room56_exit_light_info"
 	"model" "models/props/stairs/stairs_160_top/stairs_160wide_no_top_piece.mdl"
 	"renderamt" "255"
-	"rendercolor" "96 126 136"
+	"rendercolor" "90 87 61"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3840 -5440 0"
@@ -113060,7 +113184,7 @@ entity
 	"lightingorigin" "Room56_exit_light_info"
 	"model" "models/props/stairs/stairs_160_top/stairs_160wide_no_top_piece.mdl"
 	"renderamt" "255"
-	"rendercolor" "96 126 136"
+	"rendercolor" "90 87 61"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3840 -4932 0"
@@ -113347,7 +113471,7 @@ entity
 	"fadescale" "1"
 	"model" "models/props/stairs/stairs_160_top/stairs_160wide_no_top_piece.mdl"
 	"renderamt" "255"
-	"rendercolor" "96 126 136"
+	"rendercolor" "90 87 61"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3584 -5188 0"
@@ -113634,7 +113758,7 @@ entity
 	"fadescale" "1"
 	"model" "models/props/stairs/stairs_160_top/stairs_160wide_no_top_piece.mdl"
 	"renderamt" "255"
-	"rendercolor" "96 126 136"
+	"rendercolor" "90 87 61"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3652 -5504 0"
@@ -116284,7 +116408,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"spawnflags" "8"
-	"speed" "2"
+	"speed" "1"
 	"startposition" "0"
 	"startsound" "plats.elevator_move_loop1"
 	"stopsound" "ASW_Door.Door2StopClose"
@@ -139000,6 +139124,7 @@ entity
 	connections
 	{
 		"OnEggDestroyed" "eggscounter09Add10-1"
+		"OnEggDestroyed" "egg_drones01StartSpawning0-1"
 	}
 	"origin" "-74.5694 -7492.87 1.47205"
 	editor
@@ -139451,6 +139576,7 @@ entity
 	connections
 	{
 		"OnEggDestroyed" "Room42_chokepoint_counterAdd10-1"
+		"OnEggDestroyed" "egg_drones02StartSpawning0-1"
 	}
 	"origin" "927.067 -5598.64 1.47205"
 	editor
@@ -139668,6 +139794,7 @@ entity
 	connections
 	{
 		"OnEggDestroyed" "eggscounter11Add10-1"
+		"OnEggDestroyed" "egg_drones03StartSpawning0-1"
 	}
 	"origin" "185.471 -4972.27 1.47205"
 	editor
@@ -144897,130 +145024,6 @@ entity
 }
 entity
 {
-	"id" "71635"
-	"classname" "prop_static"
-	"angles" "0 0 90"
-	"disableshadows" "1"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/swarmprops/Lights/SmallLight2Red.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"solid" "6"
-	"origin" "1469.15 -6399.33 155.289"
-	editor
-	{
-		"color" "180 209 0"
-		"groupid" "71661"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 15500]"
-	}
-}
-entity
-{
-	"id" "71639"
-	"classname" "env_sprite_clientside"
-	"framerate" "10.000000"
-	"GlowProxySize" "16"
-	"HDRColorScale" "1.000000"
-	"model" "materials/sprites/light_glow03.vmt"
-	"renderamt" "255"
-	"rendercolor" "183 0 0"
-	"rendermode" "9"
-	"scale" "0.500000"
-	"origin" "1468.55 -6403.65 157.548"
-	editor
-	{
-		"color" "180 209 0"
-		"groupid" "71661"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 14500]"
-	}
-}
-entity
-{
-	"id" "71642"
-	"classname" "light"
-	"_light" "168 0 0 30"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_quadratic_attn" "1"
-	"origin" "1469.55 -6407.05 147.548"
-	editor
-	{
-		"color" "180 209 0"
-		"groupid" "71661"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 15000]"
-	}
-}
-entity
-{
-	"id" "71691"
-	"classname" "prop_static"
-	"angles" "0 0 90"
-	"disableshadows" "1"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/swarmprops/Lights/SmallLight2Red.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"solid" "6"
-	"origin" "844.153 -6399.33 155.289"
-	editor
-	{
-		"color" "180 209 0"
-		"groupid" "71690"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 15500]"
-	}
-}
-entity
-{
-	"id" "71695"
-	"classname" "env_sprite_clientside"
-	"framerate" "10.000000"
-	"GlowProxySize" "16"
-	"HDRColorScale" "1.000000"
-	"model" "materials/sprites/light_glow03.vmt"
-	"renderamt" "255"
-	"rendercolor" "183 0 0"
-	"rendermode" "9"
-	"scale" "0.500000"
-	"origin" "843.554 -6403.65 157.548"
-	editor
-	{
-		"color" "180 209 0"
-		"groupid" "71690"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 14500]"
-	}
-}
-entity
-{
-	"id" "71698"
-	"classname" "light"
-	"_light" "168 0 0 30"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_quadratic_attn" "1"
-	"origin" "844.554 -6407.05 147.548"
-	editor
-	{
-		"color" "180 209 0"
-		"groupid" "71690"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 15000]"
-	}
-}
-entity
-{
 	"id" "71722"
 	"classname" "light"
 	"_light" "164 183 181 40"
@@ -145070,13 +145073,310 @@ entity
 		"logicalpos" "[7000 12500]"
 	}
 }
+entity
+{
+	"id" "77722"
+	"classname" "asw_spawner"
+	"AlienOrders" "3"
+	"angles" "0 0 0"
+	"ClearCheck" "1"
+	"HealthScale" "1"
+	"LongRange" "1"
+	"MaxLiveAliens" "1"
+	"NearDistance" "740"
+	"NumAliens" "3"
+	"SpawnerState" "1"
+	"spawnflags" "0"
+	"SpawnInterval" "4"
+	"SpawnIntervalJitter" "50"
+	"SpeedScale" "1"
+	"targetname" "egg_drones01"
+	"origin" "-81 -6529 7.15256e-007"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "77724"
+	"classname" "asw_spawner"
+	"AlienOrders" "3"
+	"angles" "0 0 0"
+	"ClearCheck" "1"
+	"HealthScale" "1"
+	"LongRange" "1"
+	"MaxLiveAliens" "1"
+	"NearDistance" "740"
+	"NumAliens" "3"
+	"SpawnerState" "1"
+	"spawnflags" "0"
+	"SpawnInterval" "4"
+	"SpawnIntervalJitter" "50"
+	"SpeedScale" "1"
+	"targetname" "egg_drones01"
+	"origin" "-157 -6542 7.15256e-007"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "77748"
+	"classname" "asw_spawner"
+	"AlienOrders" "3"
+	"angles" "0 0 0"
+	"ClearCheck" "1"
+	"HealthScale" "1"
+	"LongRange" "1"
+	"MaxLiveAliens" "1"
+	"NearDistance" "740"
+	"NumAliens" "3"
+	"SpawnerState" "1"
+	"spawnflags" "0"
+	"SpawnInterval" "4"
+	"SpawnIntervalJitter" "50"
+	"SpeedScale" "1"
+	"targetname" "egg_drones01"
+	"origin" "1338 -8241 7.15256e-007"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "77750"
+	"classname" "asw_spawner"
+	"AlienOrders" "3"
+	"angles" "0 0 0"
+	"ClearCheck" "1"
+	"HealthScale" "1"
+	"LongRange" "1"
+	"MaxLiveAliens" "1"
+	"NearDistance" "740"
+	"NumAliens" "3"
+	"SpawnerState" "1"
+	"spawnflags" "0"
+	"SpawnInterval" "4"
+	"SpawnIntervalJitter" "50"
+	"SpeedScale" "1"
+	"targetname" "egg_drones01"
+	"origin" "1262 -8254 7.15256e-007"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "77796"
+	"classname" "asw_spawner"
+	"AlienOrders" "3"
+	"angles" "0 0 0"
+	"ClearCheck" "1"
+	"HealthScale" "1"
+	"LongRange" "1"
+	"MaxLiveAliens" "1"
+	"NearDistance" "740"
+	"NumAliens" "3"
+	"SpawnerState" "1"
+	"spawnflags" "0"
+	"SpawnInterval" "4"
+	"SpawnIntervalJitter" "50"
+	"SpeedScale" "1"
+	"targetname" "egg_drones02"
+	"origin" "1212 -6485 7.15256e-007"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "77798"
+	"classname" "asw_spawner"
+	"AlienOrders" "3"
+	"angles" "0 0 0"
+	"ClearCheck" "1"
+	"HealthScale" "1"
+	"LongRange" "1"
+	"MaxLiveAliens" "1"
+	"NearDistance" "740"
+	"NumAliens" "3"
+	"SpawnerState" "1"
+	"spawnflags" "0"
+	"SpawnInterval" "4"
+	"SpawnIntervalJitter" "50"
+	"SpeedScale" "1"
+	"targetname" "egg_drones02"
+	"origin" "1136 -6498 7.15256e-007"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "77812"
+	"classname" "asw_spawner"
+	"AlienOrders" "3"
+	"angles" "0 0 0"
+	"ClearCheck" "1"
+	"HealthScale" "1"
+	"LongRange" "1"
+	"MaxLiveAliens" "1"
+	"NearDistance" "740"
+	"NumAliens" "3"
+	"SpawnerState" "1"
+	"spawnflags" "0"
+	"SpawnInterval" "4"
+	"SpawnIntervalJitter" "50"
+	"SpeedScale" "1"
+	"targetname" "egg_drones02"
+	"origin" "2913 -5760 7.15256e-007"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "77814"
+	"classname" "asw_spawner"
+	"AlienOrders" "3"
+	"angles" "0 0 0"
+	"ClearCheck" "1"
+	"HealthScale" "1"
+	"LongRange" "1"
+	"MaxLiveAliens" "1"
+	"NearDistance" "740"
+	"NumAliens" "3"
+	"SpawnerState" "1"
+	"spawnflags" "0"
+	"SpawnInterval" "4"
+	"SpawnIntervalJitter" "50"
+	"SpeedScale" "1"
+	"targetname" "egg_drones02"
+	"origin" "2837 -5773 7.15256e-007"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "77828"
+	"classname" "asw_spawner"
+	"AlienOrders" "3"
+	"angles" "0 0 0"
+	"ClearCheck" "1"
+	"HealthScale" "1"
+	"LongRange" "1"
+	"MaxLiveAliens" "1"
+	"NearDistance" "740"
+	"NumAliens" "3"
+	"SpawnerState" "1"
+	"spawnflags" "0"
+	"SpawnInterval" "4"
+	"SpawnIntervalJitter" "50"
+	"SpeedScale" "1"
+	"targetname" "egg_drones03"
+	"origin" "1250 -5915 7.15256e-007"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "77830"
+	"classname" "asw_spawner"
+	"AlienOrders" "3"
+	"angles" "0 0 0"
+	"ClearCheck" "1"
+	"HealthScale" "1"
+	"LongRange" "1"
+	"MaxLiveAliens" "1"
+	"NearDistance" "740"
+	"NumAliens" "3"
+	"SpawnerState" "1"
+	"spawnflags" "0"
+	"SpawnInterval" "4"
+	"SpawnIntervalJitter" "50"
+	"SpeedScale" "1"
+	"targetname" "egg_drones03"
+	"origin" "1174 -5928 7.15256e-007"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "77836"
+	"classname" "asw_spawner"
+	"AlienOrders" "3"
+	"angles" "0 0 0"
+	"ClearCheck" "1"
+	"HealthScale" "1"
+	"LongRange" "1"
+	"MaxLiveAliens" "1"
+	"NearDistance" "740"
+	"NumAliens" "3"
+	"SpawnerState" "1"
+	"spawnflags" "0"
+	"SpawnInterval" "4"
+	"SpawnIntervalJitter" "50"
+	"SpeedScale" "1"
+	"targetname" "egg_drones03"
+	"origin" "1327 -5878 7.15256e-007"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1133.81 -6388.03 685.403]"
-		"look" "[1138.49 -6164.73 541.465]"
+		"position" "[637.94 -6794.77 709.712]"
+		"look" "[611.893 -6562.49 583.333]"
 	}
 }
 cordons
