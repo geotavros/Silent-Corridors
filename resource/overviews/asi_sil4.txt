@@ -4,14 +4,14 @@ GAME
 	"pos_y"             "-3230"
 	"scale"             "8.0"
 	//"mapyoffset" 		"-60"
-	"material"          "vgui/swarm/overviews/asi_sil1_laboratory_overview"
-	"briefingmaterial"  "vgui/swarm/overviews/asi_sil1_laboratory_briefing"	
-	"missiontitle"		"Laboratory"
+//	"material"          "vgui/swarm/overviews/asi_sil1_laboratory_overview"
+//	"briefingmaterial"  "vgui/swarm/overviews/asi_sil1_laboratory_briefing"	
+	"missiontitle"		"Corridor"
 	"description"	    ""
 	"image"		        "swarm/objectivepics/silentcorridors1laboratory_eggs"
 	
 	"version"		    "1.6"
-	"author"      		"Dmitriy"
+	"author"      		"geotavros"
 	"website"		    "http://steamcommunity.com/sharedfiles/filedetails/?id=848260335"
 }
 
