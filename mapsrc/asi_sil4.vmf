@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7397"
-	"mapversion" "37"
+	"mapversion" "38"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,78 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "37"
+	"mapversion" "38"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "blacksky"
 	"speedruntime" "180"
+	solid
+	{
+		"id" "56712"
+		side
+		{
+			"id" "8297"
+			"plane" "(0 -9680 160) (0 -9696 160) (-48 -9696 160)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8298"
+			"plane" "(0 -9696 0) (0 -9680 0) (-48 -9696 0)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8300"
+			"plane" "(0 -9696 0) (0 -9696 160) (0 -9680 160)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8301"
+			"plane" "(-48 -9696 160) (-48 -9696 0) (0 -9680 0)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8302"
+			"plane" "(-48 -9696 0) (-48 -9696 160) (0 -9696 160)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 149"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 }
 entity
 {
@@ -94144,7 +94209,7 @@ entity
 {
 	"id" "2787"
 	"classname" "light"
-	"_light" "226 233 232 100"
+	"_light" "226 233 232 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "0.2"
 	"_quadratic_attn" "1"
@@ -113638,7 +113703,7 @@ entity
 	"_distance" "0"
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
-	"_light" "174 198 194 100"
+	"_light" "174 198 194 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "0.140000"
 	"_linear_attn" "0"
@@ -193601,8 +193666,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1809 -10462.3 495.068]"
-		"look" "[-1817.21 -10315.5 273.752]"
+		"position" "[-1736.8 -10354.6 508.53]"
+		"look" "[-1798.08 -10224.3 285.188]"
 	}
 }
 cordons
