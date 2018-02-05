@@ -1,18 +1,18 @@
 GAME
 {
-	"pos_x"             -4481 //"-1044"
-	"pos_y"             "-3230"
-	"scale"             "8.0"
+	"pos_x"             -10476
+	"pos_y"             4127
+	"scale"             "18.0"
 	//"mapyoffset" 		"-60"
-	"material" 		"vgui/swarm/Computer/ComputerScan"
-	"briefingmaterial" 	"vgui/swarm/missionpics/unknownmissionpic"
+	"material"          "vgui/swarm/overviews/asi_sil2_overview"
+	"briefingmaterial"  "vgui/swarm/overviews/asi_sil2_overview"	
 	"missiontitle"		"Research Complex"
 	"description"	    ""
 	"image"		        "swarm/objectivepics/silentcorridors1laboratory_eggs"
 	
-	"version"		    "1.7"
+	"version"		    "1.8"
 	"author"      		"Dmitriy"
 	"website"		    "http://steamcommunity.com/sharedfiles/filedetails/?id=848260335"
 }
 
-// Overview: scale 8.00, pos_x -3457, pos_y -3230
+// Overview: scale 18.00, pos_x -8172, pos_y 4127
