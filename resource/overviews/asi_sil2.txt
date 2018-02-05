@@ -6,8 +6,7 @@ GAME
 	//"mapyoffset" 		"-60"
 	"material" 		"vgui/swarm/Computer/ComputerScan"
 	"briefingmaterial" 	"vgui/swarm/missionpics/unknownmissionpic"
-	
-	"missiontitle"		"Corridor"
+	"missiontitle"		"Research Complex"
 	"description"	    ""
 	"image"		        "swarm/objectivepics/silentcorridors1laboratory_eggs"
 	

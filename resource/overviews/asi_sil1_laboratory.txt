@@ -10,7 +10,7 @@ GAME
 	"description"	    ""
 	"image"		        "swarm/objectivepics/silentcorridors1laboratory_eggs"
 	
-	"version"		    "1.6"
+	"version"		    "1.7"
 	"author"      		"Dmitriy"
 	"website"		    "http://steamcommunity.com/sharedfiles/filedetails/?id=848260335"
 }
