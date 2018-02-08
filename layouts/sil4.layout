@@ -1,0 +1,737 @@
+"mission_settings"
+{
+	"MissionName"		"Example 200"
+	"MissionDescription"		"Randomly generated example mission."
+	"RandomSeed"		"0"
+	"TiltedView"		"0"
+	"BossInEscapeRoom"		"1"
+	"ShowItemStore"		"1"
+	"EncounterType"		"0"
+	"Filename"		"example_200.txt"
+}
+"mapmisc"
+{
+	"PlayerStartX"		"60"
+	"PlayerStartY"		"60"
+}
+"room"
+{
+	"posx"		"60"
+	"posy"		"20"
+	"theme"		"example"
+	"template"		"start_area\2x3_start_area"
+}
+"room"
+{
+	"posx"		"61"
+	"posy"		"23"
+	"theme"		"example"
+	"template"		"corridors\2x4_corridor_door"
+}
+"room"
+{
+	"posx"		"58"
+	"posy"		"22"
+	"theme"		"example"
+	"template"		"corridors\2x1_corridor_ew"
+}
+"room"
+{
+	"posx"		"59"
+	"posy"		"26"
+	"theme"		"example"
+	"template"		"corridors\2x1_corridor_ew"
+}
+"room"
+{
+	"posx"		"63"
+	"posy"		"26"
+	"theme"		"example"
+	"template"		"corridors\2x1_corridor_ew"
+}
+"room"
+{
+	"posx"		"56"
+	"posy"		"20"
+	"theme"		"example"
+	"template"		"corridors\2x4_corridor_door"
+}
+"room"
+{
+	"posx"		"65"
+	"posy"		"23"
+	"theme"		"example"
+	"template"		"rooms\3x4_server_room_1"
+}
+"room"
+{
+	"posx"		"59"
+	"posy"		"25"
+	"theme"		"example"
+	"template"		"corridors\2x1_corridor_ew"
+}
+"room"
+{
+	"posx"		"68"
+	"posy"		"24"
+	"theme"		"example"
+	"template"		"corridors\2x4_corridor_door"
+}
+"room"
+{
+	"posx"		"70"
+	"posy"		"24"
+	"theme"		"example"
+	"template"		"corridors\2x4_corridor_door"
+}
+"room"
+{
+	"posx"		"54"
+	"posy"		"20"
+	"theme"		"example"
+	"template"		"corridors\2x4_corridor_door"
+}
+"room"
+{
+	"posx"		"52"
+	"posy"		"24"
+	"theme"		"example"
+	"template"		"rooms\3x4_server_room_1"
+}
+"room"
+{
+	"posx"		"62"
+	"posy"		"27"
+	"theme"		"example"
+	"template"		"corridors\2x4_corridor_door"
+}
+"room"
+{
+	"posx"		"64"
+	"posy"		"30"
+	"theme"		"example"
+	"template"		"corridors\2x1_corridor_ew"
+}
+"room"
+{
+	"posx"		"51"
+	"posy"		"19"
+	"theme"		"example"
+	"template"		"rooms\3x4_server_room_1"
+}
+"room"
+{
+	"posx"		"69"
+	"posy"		"28"
+	"theme"		"example"
+	"template"		"corridors\1x4_corridor_door"
+}
+"room"
+{
+	"posx"		"56"
+	"posy"		"19"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap_s"
+}
+"room"
+{
+	"posx"		"60"
+	"posy"		"23"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_n"
+}
+"room"
+{
+	"posx"		"62"
+	"posy"		"31"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_n"
+}
+"room"
+{
+	"posx"		"58"
+	"posy"		"26"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_w"
+}
+"room"
+{
+	"posx"		"66"
+	"posy"		"30"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_e"
+}
+"room"
+{
+	"posx"		"61"
+	"posy"		"27"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_n"
+}
+"room"
+{
+	"posx"		"58"
+	"posy"		"23"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_e"
+}
+"room"
+{
+	"posx"		"71"
+	"posy"		"28"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_n"
+}
+"room"
+{
+	"posx"		"67"
+	"posy"		"22"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap_s"
+}
+"room"
+{
+	"posx"		"72"
+	"posy"		"27"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap2_e"
+}
+"room"
+{
+	"posx"		"51"
+	"posy"		"27"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_w"
+}
+"room"
+{
+	"posx"		"68"
+	"posy"		"28"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap2_n"
+}
+"room"
+{
+	"posx"		"56"
+	"posy"		"24"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap2_n"
+}
+"room"
+{
+	"posx"		"64"
+	"posy"		"29"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_e"
+}
+"room"
+{
+	"posx"		"55"
+	"posy"		"27"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_e"
+}
+"room"
+{
+	"posx"		"50"
+	"posy"		"22"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap2_w"
+}
+"room"
+{
+	"posx"		"63"
+	"posy"		"31"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_n"
+}
+"room"
+{
+	"posx"		"72"
+	"posy"		"26"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_e"
+}
+"room"
+{
+	"posx"		"61"
+	"posy"		"30"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_w"
+}
+"room"
+{
+	"posx"		"54"
+	"posy"		"19"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap_s"
+}
+"room"
+{
+	"posx"		"67"
+	"posy"		"27"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_w"
+}
+"room"
+{
+	"posx"		"58"
+	"posy"		"25"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_w"
+}
+"room"
+{
+	"posx"		"61"
+	"posy"		"29"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_w"
+}
+"room"
+{
+	"posx"		"55"
+	"posy"		"24"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap2_n"
+}
+"room"
+{
+	"posx"		"68"
+	"posy"		"23"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap_s"
+}
+"room"
+{
+	"posx"		"62"
+	"posy"		"22"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_e"
+}
+"room"
+{
+	"posx"		"63"
+	"posy"		"25"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap2_e"
+}
+"room"
+{
+	"posx"		"53"
+	"posy"		"23"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_w"
+}
+"room"
+{
+	"posx"		"70"
+	"posy"		"23"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap_s"
+}
+"room"
+{
+	"posx"		"57"
+	"posy"		"24"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap2_n"
+}
+"room"
+{
+	"posx"		"53"
+	"posy"		"18"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap_s"
+}
+"room"
+{
+	"posx"		"70"
+	"posy"		"28"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_n"
+}
+"room"
+{
+	"posx"		"67"
+	"posy"		"32"
+	"theme"		"example"
+	"template"		"rooms\5x5_office_crossing"
+}
+"room"
+{
+	"posx"		"72"
+	"posy"		"31"
+	"theme"		"example"
+	"template"		"rooms\3x4_server_room_1"
+}
+"room"
+{
+	"posx"		"67"
+	"posy"		"31"
+	"theme"		"example"
+	"template"		"corridors\2x1_corridor_ew"
+}
+"room"
+{
+	"posx"		"65"
+	"posy"		"34"
+	"theme"		"example"
+	"template"		"corridors\2x1_corridor_ew"
+}
+"room"
+{
+	"posx"		"70"
+	"posy"		"30"
+	"theme"		"example"
+	"template"		"corridors\2x1_corridor_ew"
+}
+"room"
+{
+	"posx"		"72"
+	"posy"		"30"
+	"theme"		"example"
+	"template"		"corridors\2x1_corridor_ew"
+}
+"room"
+{
+	"posx"		"75"
+	"posy"		"31"
+	"theme"		"example"
+	"template"		"rooms\3x4_server_room_1"
+}
+"room"
+{
+	"posx"		"68"
+	"posy"		"37"
+	"theme"		"example"
+	"template"		"rooms\3x5_chokepoint"
+}
+"room"
+{
+	"posx"		"67"
+	"posy"		"37"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_w"
+}
+"room"
+{
+	"posx"		"78"
+	"posy"		"34"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_e"
+}
+"room"
+{
+	"posx"		"66"
+	"posy"		"31"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_w"
+}
+"room"
+{
+	"posx"		"64"
+	"posy"		"34"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_w"
+}
+"room"
+{
+	"posx"		"71"
+	"posy"		"37"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_e"
+}
+"room"
+{
+	"posx"		"74"
+	"posy"		"30"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap_wn"
+}
+"room"
+{
+	"posx"		"77"
+	"posy"		"30"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap_s"
+}
+"room"
+{
+	"posx"		"71"
+	"posy"		"40"
+	"theme"		"example"
+	"template"		"corridors\2x1_corridor_ew"
+}
+"room"
+{
+	"posx"		"69"
+	"posy"		"42"
+	"theme"		"example"
+	"template"		"rooms\4x3_server_room_1"
+}
+"room"
+{
+	"posx"		"69"
+	"posy"		"45"
+	"theme"		"example"
+	"template"		"rooms\4x3_server_room_1"
+}
+"room"
+{
+	"posx"		"73"
+	"posy"		"44"
+	"theme"		"example"
+	"template"		"corridors\2x1_corridor_ew"
+}
+"room"
+{
+	"posx"		"73"
+	"posy"		"37"
+	"theme"		"example"
+	"template"		"rooms\3x4_server_room_1"
+}
+"room"
+{
+	"posx"		"76"
+	"posy"		"40"
+	"theme"		"example"
+	"template"		"corridors\2x1_corridor_ew"
+}
+"room"
+{
+	"posx"		"64"
+	"posy"		"39"
+	"theme"		"example"
+	"template"		"rooms\4x3_server_room_1"
+}
+"room"
+{
+	"posx"		"64"
+	"posy"		"42"
+	"theme"		"example"
+	"template"		"rooms\4x3_server_room_1"
+}
+"room"
+{
+	"posx"		"78"
+	"posy"		"37"
+	"theme"		"example"
+	"template"		"corridors\2x4_corridor_door"
+}
+"room"
+{
+	"posx"		"69"
+	"posy"		"48"
+	"theme"		"example"
+	"template"		"corridors\2x4_corridor_door"
+}
+"room"
+{
+	"posx"		"67"
+	"posy"		"51"
+	"theme"		"example"
+	"template"		"corridors\2x1_corridor_ew"
+}
+"room"
+{
+	"posx"		"71"
+	"posy"		"51"
+	"theme"		"example"
+	"template"		"corridors\2x1_corridor_ew"
+}
+"room"
+{
+	"posx"		"79"
+	"posy"		"41"
+	"theme"		"example"
+	"template"		"corridors\2x4_corridor_door"
+}
+"room"
+{
+	"posx"		"81"
+	"posy"		"44"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_e"
+}
+"room"
+{
+	"posx"		"78"
+	"posy"		"43"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap2_w"
+}
+"room"
+{
+	"posx"		"68"
+	"posy"		"50"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_w"
+}
+"room"
+{
+	"posx"		"80"
+	"posy"		"45"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_n"
+}
+"room"
+{
+	"posx"		"73"
+	"posy"		"51"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap2_e"
+}
+"room"
+{
+	"posx"		"78"
+	"posy"		"44"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap2_w"
+}
+"room"
+{
+	"posx"		"79"
+	"posy"		"45"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_n"
+}
+"room"
+{
+	"posx"		"81"
+	"posy"		"43"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap2_e"
+}
+"room"
+{
+	"posx"		"68"
+	"posy"		"44"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_e"
+}
+"room"
+{
+	"posx"		"78"
+	"posy"		"41"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_n"
+}
+"room"
+{
+	"posx"		"69"
+	"posy"		"52"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_n"
+}
+"room"
+{
+	"posx"		"80"
+	"posy"		"40"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_e"
+}
+"room"
+{
+	"posx"		"78"
+	"posy"		"36"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap_s"
+}
+"room"
+{
+	"posx"		"75"
+	"posy"		"36"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap_s"
+}
+"room"
+{
+	"posx"		"77"
+	"posy"		"39"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_w"
+}
+"room"
+{
+	"posx"		"70"
+	"posy"		"52"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_n"
+}
+"room"
+{
+	"posx"		"71"
+	"posy"		"50"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_e"
+}
+"room"
+{
+	"posx"		"64"
+	"posy"		"38"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap_s"
+}
+"room"
+{
+	"posx"		"73"
+	"posy"		"47"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_e"
+}
+"room"
+{
+	"posx"		"70"
+	"posy"		"31"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_e"
+}
+"room"
+{
+	"posx"		"80"
+	"posy"		"39"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap2_e"
+}
+"room"
+{
+	"posx"		"68"
+	"posy"		"30"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_w"
+}
+"room"
+{
+	"posx"		"75"
+	"posy"		"44"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_e"
+}
+"room"
+{
+	"posx"		"64"
+	"posy"		"45"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap1_n"
+}
+"room"
+{
+	"posx"		"63"
+	"posy"		"49"
+	"theme"		"example"
+	"template"		"rooms\4x3_server_room_1"
+}
+"room"
+{
+	"posx"		"63"
+	"posy"		"52"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap3_n"
+}
+"room"
+{
+	"posx"		"63"
+	"posy"		"48"
+	"theme"		"example"
+	"template"		"end_caps\1x1_endcap_s"
+}
