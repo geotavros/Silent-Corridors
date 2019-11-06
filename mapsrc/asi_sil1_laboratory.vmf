@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "5032"
-	"mapversion" "83"
+	"editorbuild" "7397"
+	"mapversion" "84"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "83"
+	"mapversion" "84"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3215,6 +3215,82 @@ world
 		editor
 		{
 			"color" "0 143 248"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "97375"
+		side
+		{
+			"id" "6681"
+			"plane" "(3520 -4800 140.001) (3904 -4800 140.001) (3904 -5568 140.001)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6682"
+			"plane" "(3520 -5568 0.000671387) (3904 -5568 0.000671387) (3904 -4800 0.000671387)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6683"
+			"plane" "(3520 -4800 140.001) (3520 -5568 140.001) (3520 -5568 0.000671387)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6684"
+			"plane" "(3904 -4800 0.000671387) (3904 -5568 0.000671387) (3904 -5568 140.001)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6685"
+			"plane" "(3904 -4800 140.001) (3520 -4800 140.001) (3520 -4800 0.000671387)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6686"
+			"plane" "(3904 -5568 0.000671387) (3520 -5568 0.000671387) (3520 -5568 140.001)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 211 248"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -21112,6 +21188,7 @@ entity
 {
 	"id" "396"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "679"
 	"spawnflags" "0"
 	"origin" "194.271 -10088.7 1.00001"
@@ -21127,6 +21204,7 @@ entity
 {
 	"id" "397"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "1"
 	"spawnflags" "0"
 	"origin" "343.622 -10087.1 1.00001"
@@ -21142,6 +21220,7 @@ entity
 {
 	"id" "398"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "2"
 	"spawnflags" "0"
 	"origin" "245.701 -9998.48 1.00001"
@@ -21157,6 +21236,7 @@ entity
 {
 	"id" "399"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "3"
 	"spawnflags" "0"
 	"origin" "354.782 -9963.12 0.999981"
@@ -21172,6 +21252,7 @@ entity
 {
 	"id" "400"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "4"
 	"spawnflags" "0"
 	"origin" "178.547 -9911.12 1.00001"
@@ -21187,6 +21268,7 @@ entity
 {
 	"id" "401"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "5"
 	"spawnflags" "0"
 	"origin" "276.758 -9865.94 1.00001"
@@ -21202,6 +21284,7 @@ entity
 {
 	"id" "402"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "6"
 	"spawnflags" "0"
 	"origin" "346.514 -9791.5 0.999981"
@@ -21217,6 +21300,7 @@ entity
 {
 	"id" "403"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "7"
 	"spawnflags" "0"
 	"origin" "176.909 -9780.75 1.00001"
@@ -21232,6 +21316,7 @@ entity
 {
 	"id" "404"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "8"
 	"spawnflags" "0"
 	"origin" "264.761 -9727.62 1.00001"
@@ -21247,6 +21332,7 @@ entity
 {
 	"id" "405"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "9"
 	"spawnflags" "0"
 	"origin" "183.209 -9644.07 1.00001"
@@ -21262,6 +21348,7 @@ entity
 {
 	"id" "406"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "10"
 	"spawnflags" "0"
 	"origin" "57.858 -9629.29 0.999981"
@@ -21277,6 +21364,7 @@ entity
 {
 	"id" "407"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "11"
 	"spawnflags" "0"
 	"origin" "57.5683 -9549.56 1.00004"
@@ -21292,6 +21380,7 @@ entity
 {
 	"id" "408"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "12"
 	"spawnflags" "0"
 	"origin" "176.139 -9509.47 1.00001"
@@ -21307,6 +21396,7 @@ entity
 {
 	"id" "409"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "13"
 	"spawnflags" "0"
 	"origin" "270.033 -9588.29 1.00001"
@@ -21322,6 +21412,7 @@ entity
 {
 	"id" "410"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "14"
 	"spawnflags" "0"
 	"origin" "284.117 -9662.18 1.00001"
@@ -21337,6 +21428,7 @@ entity
 {
 	"id" "411"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "15"
 	"spawnflags" "0"
 	"origin" "397.838 -9668.05 1.00001"
@@ -21352,6 +21444,7 @@ entity
 {
 	"id" "412"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "16"
 	"spawnflags" "0"
 	"origin" "482.437 -9604.87 1.00001"
@@ -21367,6 +21460,7 @@ entity
 {
 	"id" "413"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "17"
 	"spawnflags" "0"
 	"origin" "467.616 -9505.73 1.00001"
@@ -21382,6 +21476,7 @@ entity
 {
 	"id" "414"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "18"
 	"spawnflags" "0"
 	"origin" "354.562 -9513.46 0.999981"
@@ -21397,6 +21492,7 @@ entity
 {
 	"id" "415"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "19"
 	"spawnflags" "0"
 	"origin" "365.582 -9583.84 0.999981"
@@ -21674,8 +21770,10 @@ entity
 {
 	"id" "427"
 	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
 	"hacklevel" "5"
 	"locked" "0"
+	"needstech" "1"
 	"nopower" "0"
 	"numwires" "2"
 	"origin" "-293 -10027 104.93"
@@ -23951,6 +24049,7 @@ entity
 {
 	"id" "504"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "22"
 	"spawnflags" "0"
 	"origin" "-379.199 -10071 1.00001"
@@ -23966,6 +24065,7 @@ entity
 {
 	"id" "505"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "23"
 	"spawnflags" "0"
 	"origin" "-384.188 -9945.08 1.00001"
@@ -23997,6 +24097,7 @@ entity
 {
 	"id" "507"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "25"
 	"spawnflags" "0"
 	"origin" "-314.226 -9811.27 1.00001"
@@ -24012,6 +24113,7 @@ entity
 {
 	"id" "508"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "26"
 	"spawnflags" "0"
 	"origin" "-179.489 -9859.32 1.00001"
@@ -24027,6 +24129,7 @@ entity
 {
 	"id" "509"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "27"
 	"spawnflags" "0"
 	"origin" "-50.638 -9800.47 0.999981"
@@ -24042,6 +24145,7 @@ entity
 {
 	"id" "510"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "28"
 	"spawnflags" "0"
 	"origin" "-419.908 -9584.23 1.00001"
@@ -24057,6 +24161,7 @@ entity
 {
 	"id" "511"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "29"
 	"spawnflags" "0"
 	"origin" "-59.601 -9595.21 1.00001"
@@ -24072,6 +24177,7 @@ entity
 {
 	"id" "512"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "30"
 	"spawnflags" "0"
 	"origin" "-440.322 -9348.39 1.00004"
@@ -24087,6 +24193,7 @@ entity
 {
 	"id" "513"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "31"
 	"spawnflags" "0"
 	"origin" "-349.788 -9279.42 1.00001"
@@ -24102,6 +24209,7 @@ entity
 {
 	"id" "514"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "32"
 	"spawnflags" "0"
 	"origin" "-131.259 -9270.23 0.999981"
@@ -24117,6 +24225,7 @@ entity
 {
 	"id" "515"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "33"
 	"spawnflags" "0"
 	"origin" "-62.759 -9353.24 1.00004"
@@ -24132,6 +24241,7 @@ entity
 {
 	"id" "516"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "34"
 	"spawnflags" "0"
 	"origin" "-379.168 -9720.53 1.00001"
@@ -24147,6 +24257,7 @@ entity
 {
 	"id" "517"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "35"
 	"spawnflags" "0"
 	"origin" "-255.65 -9727.89 1.00001"
@@ -24162,6 +24273,7 @@ entity
 {
 	"id" "518"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "36"
 	"spawnflags" "0"
 	"origin" "-125.784 -9740.25 1.00001"
@@ -24177,6 +24289,7 @@ entity
 {
 	"id" "519"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "37"
 	"spawnflags" "0"
 	"origin" "-351.252 -9554.65 1.00001"
@@ -24192,6 +24305,7 @@ entity
 {
 	"id" "520"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "38"
 	"spawnflags" "0"
 	"origin" "-369.153 -9423.88 1.00001"
@@ -24207,6 +24321,7 @@ entity
 {
 	"id" "521"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "39"
 	"spawnflags" "0"
 	"origin" "-249.724 -9318.16 1.00001"
@@ -24222,6 +24337,7 @@ entity
 {
 	"id" "522"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "40"
 	"spawnflags" "0"
 	"origin" "-154.385 -9370.43 1.00001"
@@ -24237,6 +24353,7 @@ entity
 {
 	"id" "523"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "41"
 	"spawnflags" "0"
 	"origin" "-270.788 -9455.74 1.00001"
@@ -24252,6 +24369,7 @@ entity
 {
 	"id" "524"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "42"
 	"spawnflags" "0"
 	"origin" "-64.842 -9470.02 1.00001"
@@ -25875,6 +25993,7 @@ entity
 {
 	"id" "568"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "43"
 	"spawnflags" "0"
 	"origin" "979.128 -9648.77 1.00001"
@@ -25890,6 +26009,7 @@ entity
 {
 	"id" "569"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "44"
 	"spawnflags" "0"
 	"origin" "969.786 -9524.04 1.00001"
@@ -25905,6 +26025,7 @@ entity
 {
 	"id" "570"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "45"
 	"spawnflags" "0"
 	"origin" "854.295 -9645.28 1.00001"
@@ -25920,6 +26041,7 @@ entity
 {
 	"id" "571"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "46"
 	"spawnflags" "0"
 	"origin" "551.615 -9657.62 1.00001"
@@ -25935,6 +26057,7 @@ entity
 {
 	"id" "572"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "47"
 	"spawnflags" "0"
 	"origin" "565.157 -9544.01 1.00001"
@@ -25950,6 +26073,7 @@ entity
 {
 	"id" "573"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "48"
 	"spawnflags" "0"
 	"origin" "720.648 -9644.2 1.00001"
@@ -25965,6 +26089,7 @@ entity
 {
 	"id" "574"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "49"
 	"spawnflags" "0"
 	"origin" "729.955 -9547.91 1.00004"
@@ -25980,6 +26105,7 @@ entity
 {
 	"id" "575"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "50"
 	"spawnflags" "0"
 	"origin" "856 -9548 20"
@@ -28159,6 +28285,7 @@ entity
 {
 	"id" "657"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "51"
 	"spawnflags" "0"
 	"origin" "1094.39 -10436.9 1.00001"
@@ -28174,6 +28301,7 @@ entity
 {
 	"id" "658"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "52"
 	"spawnflags" "0"
 	"origin" "1224.25 -10423.7 1.00007"
@@ -28189,6 +28317,7 @@ entity
 {
 	"id" "659"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "53"
 	"spawnflags" "0"
 	"origin" "1156.8 -10327 1.00001"
@@ -28204,6 +28333,7 @@ entity
 {
 	"id" "660"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "54"
 	"spawnflags" "0"
 	"origin" "1151.81 -10201.1 1.00001"
@@ -28219,6 +28349,7 @@ entity
 {
 	"id" "661"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "55"
 	"spawnflags" "0"
 	"origin" "1103.78 -10082 1.00001"
@@ -28234,6 +28365,7 @@ entity
 {
 	"id" "662"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "56"
 	"spawnflags" "0"
 	"origin" "1221.77 -10067.3 1.00001"
@@ -28249,6 +28381,7 @@ entity
 {
 	"id" "663"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "57"
 	"spawnflags" "0"
 	"origin" "1356.51 -10115.3 1.00001"
@@ -28264,6 +28397,7 @@ entity
 {
 	"id" "664"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "58"
 	"spawnflags" "0"
 	"origin" "1485.36 -10056.5 0.999981"
@@ -28279,6 +28413,7 @@ entity
 {
 	"id" "665"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "59"
 	"spawnflags" "0"
 	"origin" "1116.09 -9840.23 1.00001"
@@ -28294,6 +28429,7 @@ entity
 {
 	"id" "666"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "60"
 	"spawnflags" "0"
 	"origin" "1476.4 -9851.21 1.00001"
@@ -28309,6 +28445,7 @@ entity
 {
 	"id" "667"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "61"
 	"spawnflags" "0"
 	"origin" "1095.68 -9604.39 1.00004"
@@ -28324,6 +28461,7 @@ entity
 {
 	"id" "668"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "62"
 	"spawnflags" "0"
 	"origin" "1186.21 -9535.42 1.00001"
@@ -28339,6 +28477,7 @@ entity
 {
 	"id" "669"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "63"
 	"spawnflags" "0"
 	"origin" "1404.74 -9526.23 0.999981"
@@ -28354,6 +28493,7 @@ entity
 {
 	"id" "670"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "64"
 	"spawnflags" "0"
 	"origin" "1473.24 -9609.24 1.00004"
@@ -28369,6 +28509,7 @@ entity
 {
 	"id" "671"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "65"
 	"spawnflags" "0"
 	"origin" "1156.83 -9976.53 1.00001"
@@ -28384,6 +28525,7 @@ entity
 {
 	"id" "672"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "66"
 	"spawnflags" "0"
 	"origin" "1280.35 -9983.89 1.00001"
@@ -28399,6 +28541,7 @@ entity
 {
 	"id" "673"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "67"
 	"spawnflags" "0"
 	"origin" "1410.22 -9996.25 1.00001"
@@ -28414,6 +28557,7 @@ entity
 {
 	"id" "674"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "68"
 	"spawnflags" "0"
 	"origin" "1184.75 -9810.65 1.00001"
@@ -28429,6 +28573,7 @@ entity
 {
 	"id" "675"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "69"
 	"spawnflags" "0"
 	"origin" "1166.85 -9679.88 1.00001"
@@ -28444,6 +28589,7 @@ entity
 {
 	"id" "676"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "70"
 	"spawnflags" "0"
 	"origin" "1286.28 -9574.16 1.00001"
@@ -28459,6 +28605,7 @@ entity
 {
 	"id" "677"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "71"
 	"spawnflags" "0"
 	"origin" "1381.61 -9626.43 1.00001"
@@ -28474,6 +28621,7 @@ entity
 {
 	"id" "678"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "72"
 	"spawnflags" "0"
 	"origin" "1265.21 -9711.74 1.00001"
@@ -28489,6 +28637,7 @@ entity
 {
 	"id" "679"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "73"
 	"spawnflags" "0"
 	"origin" "1471.16 -9726.02 1.00001"
@@ -30024,6 +30173,7 @@ entity
 {
 	"id" "723"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "74"
 	"spawnflags" "0"
 	"origin" "-556.872 -9392.77 1.00001"
@@ -30039,6 +30189,7 @@ entity
 {
 	"id" "724"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "75"
 	"spawnflags" "0"
 	"origin" "-566.214 -9268.04 1.00001"
@@ -30054,6 +30205,7 @@ entity
 {
 	"id" "725"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "76"
 	"spawnflags" "0"
 	"origin" "-681.705 -9389.28 1.00001"
@@ -30069,6 +30221,7 @@ entity
 {
 	"id" "726"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "77"
 	"spawnflags" "0"
 	"origin" "-984.385 -9401.62 1.00001"
@@ -30084,6 +30237,7 @@ entity
 {
 	"id" "727"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "78"
 	"spawnflags" "0"
 	"origin" "-970.843 -9288.01 1.00001"
@@ -30099,6 +30253,7 @@ entity
 {
 	"id" "728"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "79"
 	"spawnflags" "0"
 	"origin" "-815.352 -9388.2 1.00001"
@@ -30114,6 +30269,7 @@ entity
 {
 	"id" "729"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "80"
 	"spawnflags" "0"
 	"origin" "-806.045 -9291.91 1.00004"
@@ -30129,6 +30285,7 @@ entity
 {
 	"id" "730"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "81"
 	"spawnflags" "0"
 	"origin" "-680 -9292 20"
@@ -30325,8 +30482,10 @@ entity
 {
 	"id" "737"
 	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
 	"hacklevel" "5"
 	"locked" "0"
+	"needstech" "1"
 	"nopower" "0"
 	"numwires" "2"
 	"origin" "-1317 -9771 104.93"
@@ -32602,6 +32761,7 @@ entity
 {
 	"id" "812"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "82"
 	"spawnflags" "0"
 	"origin" "-1465.61 -9924.92 1.00001"
@@ -32617,6 +32777,7 @@ entity
 {
 	"id" "813"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "83"
 	"spawnflags" "0"
 	"origin" "-1335.75 -9911.69 1.00007"
@@ -32632,6 +32793,7 @@ entity
 {
 	"id" "814"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "84"
 	"spawnflags" "0"
 	"origin" "-1403.2 -9814.97 1.00001"
@@ -32647,6 +32809,7 @@ entity
 {
 	"id" "815"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "85"
 	"spawnflags" "0"
 	"origin" "-1408.19 -9689.08 1.00001"
@@ -32662,6 +32825,7 @@ entity
 {
 	"id" "816"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "86"
 	"spawnflags" "0"
 	"origin" "-1456.22 -9569.96 1.00001"
@@ -32677,6 +32841,7 @@ entity
 {
 	"id" "817"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "87"
 	"spawnflags" "0"
 	"origin" "-1338.23 -9555.27 1.00001"
@@ -32692,6 +32857,7 @@ entity
 {
 	"id" "818"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "88"
 	"spawnflags" "0"
 	"origin" "-1203.49 -9603.32 1.00001"
@@ -32707,6 +32873,7 @@ entity
 {
 	"id" "819"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "89"
 	"spawnflags" "0"
 	"origin" "-1074.64 -9544.47 0.999981"
@@ -32722,6 +32889,7 @@ entity
 {
 	"id" "820"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "90"
 	"spawnflags" "0"
 	"origin" "-1443.91 -9328.23 1.00001"
@@ -32737,6 +32905,7 @@ entity
 {
 	"id" "821"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "91"
 	"spawnflags" "0"
 	"origin" "-1083.6 -9339.21 1.00001"
@@ -32752,6 +32921,7 @@ entity
 {
 	"id" "822"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "92"
 	"spawnflags" "0"
 	"origin" "-1464.32 -9092.39 1.00004"
@@ -32767,6 +32937,7 @@ entity
 {
 	"id" "823"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "93"
 	"spawnflags" "0"
 	"origin" "-1373.79 -9023.42 1.00001"
@@ -32782,6 +32953,7 @@ entity
 {
 	"id" "824"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "94"
 	"spawnflags" "0"
 	"origin" "-1155.26 -9014.23 0.999981"
@@ -32797,6 +32969,7 @@ entity
 {
 	"id" "825"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "95"
 	"spawnflags" "0"
 	"origin" "-1086.76 -9097.24 1.00004"
@@ -32812,6 +32985,7 @@ entity
 {
 	"id" "826"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "96"
 	"spawnflags" "0"
 	"origin" "-1403.17 -9464.53 1.00001"
@@ -32827,6 +33001,7 @@ entity
 {
 	"id" "827"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "97"
 	"spawnflags" "0"
 	"origin" "-1279.65 -9471.89 1.00001"
@@ -32842,6 +33017,7 @@ entity
 {
 	"id" "828"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "98"
 	"spawnflags" "0"
 	"origin" "-1149.78 -9484.25 1.00001"
@@ -32857,6 +33033,7 @@ entity
 {
 	"id" "829"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "99"
 	"spawnflags" "0"
 	"origin" "-1375.25 -9298.65 1.00001"
@@ -32872,6 +33049,7 @@ entity
 {
 	"id" "830"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "100"
 	"spawnflags" "0"
 	"origin" "-1393.15 -9167.88 1.00001"
@@ -32887,6 +33065,7 @@ entity
 {
 	"id" "831"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "101"
 	"spawnflags" "0"
 	"origin" "-1273.72 -9062.16 1.00001"
@@ -32902,6 +33081,7 @@ entity
 {
 	"id" "832"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "102"
 	"spawnflags" "0"
 	"origin" "-1178.39 -9114.43 1.00001"
@@ -32917,6 +33097,7 @@ entity
 {
 	"id" "833"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "103"
 	"spawnflags" "0"
 	"origin" "-1294.79 -9199.74 1.00001"
@@ -32932,6 +33113,7 @@ entity
 {
 	"id" "834"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "104"
 	"spawnflags" "0"
 	"origin" "-1088.84 -9214.02 1.00001"
@@ -33041,8 +33223,10 @@ entity
 {
 	"id" "837"
 	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
 	"hacklevel" "5"
 	"locked" "0"
+	"needstech" "1"
 	"nopower" "0"
 	"numwires" "2"
 	"origin" "-37 -9003 104.93"
@@ -35768,6 +35952,7 @@ entity
 {
 	"id" "912"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "105"
 	"spawnflags" "0"
 	"origin" "-185.612 -9156.92 1.00001"
@@ -35783,6 +35968,7 @@ entity
 {
 	"id" "913"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "106"
 	"spawnflags" "0"
 	"origin" "-55.751 -9143.69 1.00007"
@@ -35798,6 +35984,7 @@ entity
 {
 	"id" "914"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "107"
 	"spawnflags" "0"
 	"origin" "-123.199 -9046.97 1.00001"
@@ -35813,6 +36000,7 @@ entity
 {
 	"id" "915"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "108"
 	"spawnflags" "0"
 	"origin" "-128.188 -8921.08 1.00001"
@@ -35828,6 +36016,7 @@ entity
 {
 	"id" "916"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "109"
 	"spawnflags" "0"
 	"origin" "-176.22 -8801.96 1.00001"
@@ -35843,6 +36032,7 @@ entity
 {
 	"id" "917"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "110"
 	"spawnflags" "0"
 	"origin" "-58.226 -8787.27 1.00001"
@@ -35858,6 +36048,7 @@ entity
 {
 	"id" "918"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "111"
 	"spawnflags" "0"
 	"origin" "76.511 -8835.32 1.00001"
@@ -35873,6 +36064,7 @@ entity
 {
 	"id" "919"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "112"
 	"spawnflags" "0"
 	"origin" "205.362 -8776.47 0.999981"
@@ -35888,6 +36080,7 @@ entity
 {
 	"id" "920"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "113"
 	"spawnflags" "0"
 	"origin" "-163.908 -8560.23 1.00001"
@@ -35903,6 +36096,7 @@ entity
 {
 	"id" "921"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "114"
 	"spawnflags" "0"
 	"origin" "196.399 -8571.21 1.00001"
@@ -35918,6 +36112,7 @@ entity
 {
 	"id" "922"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "115"
 	"spawnflags" "0"
 	"origin" "-184.322 -8324.39 1.00004"
@@ -35933,6 +36128,7 @@ entity
 {
 	"id" "923"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "116"
 	"spawnflags" "0"
 	"origin" "-93.788 -8255.42 1.00001"
@@ -35948,6 +36144,7 @@ entity
 {
 	"id" "924"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "117"
 	"spawnflags" "0"
 	"origin" "124.741 -8246.23 0.999981"
@@ -35963,6 +36160,7 @@ entity
 {
 	"id" "925"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "118"
 	"spawnflags" "0"
 	"origin" "193.241 -8329.24 1.00004"
@@ -35978,6 +36176,7 @@ entity
 {
 	"id" "926"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "119"
 	"spawnflags" "0"
 	"origin" "-123.168 -8696.53 1.00001"
@@ -35993,6 +36192,7 @@ entity
 {
 	"id" "927"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "120"
 	"spawnflags" "0"
 	"origin" "0.350006 -8703.89 1.00001"
@@ -36008,6 +36208,7 @@ entity
 {
 	"id" "928"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "121"
 	"spawnflags" "0"
 	"origin" "130.216 -8716.25 1.00001"
@@ -36023,6 +36224,7 @@ entity
 {
 	"id" "929"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "122"
 	"spawnflags" "0"
 	"origin" "-95.252 -8530.65 1.00001"
@@ -36038,6 +36240,7 @@ entity
 {
 	"id" "930"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "123"
 	"spawnflags" "0"
 	"origin" "-113.153 -8399.88 1.00001"
@@ -36053,6 +36256,7 @@ entity
 {
 	"id" "931"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "124"
 	"spawnflags" "0"
 	"origin" "6.276 -8294.16 1.00001"
@@ -36068,6 +36272,7 @@ entity
 {
 	"id" "932"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "125"
 	"spawnflags" "0"
 	"origin" "101.615 -8346.43 1.00001"
@@ -36083,6 +36288,7 @@ entity
 {
 	"id" "933"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "126"
 	"spawnflags" "0"
 	"origin" "-14.788 -8431.74 1.00001"
@@ -36098,6 +36304,7 @@ entity
 {
 	"id" "934"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "127"
 	"spawnflags" "0"
 	"origin" "191.158 -8446.02 1.00001"
@@ -37633,6 +37840,7 @@ entity
 {
 	"id" "980"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "130"
 	"spawnflags" "0"
 	"origin" "-681.705 -9133.28 1.00001"
@@ -37648,6 +37856,7 @@ entity
 {
 	"id" "981"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "131"
 	"spawnflags" "0"
 	"origin" "-984.385 -9145.62 1.00001"
@@ -37663,6 +37872,7 @@ entity
 {
 	"id" "982"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "132"
 	"spawnflags" "0"
 	"origin" "-970.843 -9032.01 1.00001"
@@ -37678,6 +37888,7 @@ entity
 {
 	"id" "983"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "133"
 	"spawnflags" "0"
 	"origin" "-815.352 -9132.2 1.00001"
@@ -37693,6 +37904,7 @@ entity
 {
 	"id" "984"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "134"
 	"spawnflags" "0"
 	"origin" "-806.045 -9035.91 1.00004"
@@ -37708,6 +37920,7 @@ entity
 {
 	"id" "985"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "135"
 	"spawnflags" "0"
 	"origin" "-680 -9036 20"
@@ -37904,8 +38117,10 @@ entity
 {
 	"id" "992"
 	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
 	"hacklevel" "5"
 	"locked" "0"
+	"needstech" "1"
 	"nopower" "0"
 	"numwires" "2"
 	"origin" "-1829 -9771 104.93"
@@ -40631,6 +40846,7 @@ entity
 {
 	"id" "1067"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "136"
 	"spawnflags" "0"
 	"origin" "-1977.61 -9924.92 1.00001"
@@ -40646,6 +40862,7 @@ entity
 {
 	"id" "1068"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "137"
 	"spawnflags" "0"
 	"origin" "-1847.75 -9911.69 1.00007"
@@ -40661,6 +40878,7 @@ entity
 {
 	"id" "1069"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "138"
 	"spawnflags" "0"
 	"origin" "-1915.2 -9814.97 1.00001"
@@ -40676,6 +40894,7 @@ entity
 {
 	"id" "1070"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "139"
 	"spawnflags" "0"
 	"origin" "-1920.19 -9689.08 1.00001"
@@ -40691,6 +40910,7 @@ entity
 {
 	"id" "1072"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "141"
 	"spawnflags" "0"
 	"origin" "-1850.23 -9555.27 1.00001"
@@ -40706,6 +40926,7 @@ entity
 {
 	"id" "1073"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "142"
 	"spawnflags" "0"
 	"origin" "-1715.49 -9603.32 1.00001"
@@ -40721,6 +40942,7 @@ entity
 {
 	"id" "1074"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "143"
 	"spawnflags" "0"
 	"origin" "-1586.64 -9544.47 0.999981"
@@ -40736,6 +40958,7 @@ entity
 {
 	"id" "1075"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "144"
 	"spawnflags" "0"
 	"origin" "-1955.91 -9328.23 1.00001"
@@ -40751,6 +40974,7 @@ entity
 {
 	"id" "1076"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "145"
 	"spawnflags" "0"
 	"origin" "-1595.6 -9339.21 1.00001"
@@ -40766,6 +40990,7 @@ entity
 {
 	"id" "1077"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "146"
 	"spawnflags" "0"
 	"origin" "-1976.32 -9092.39 1.00004"
@@ -40781,6 +41006,7 @@ entity
 {
 	"id" "1078"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "147"
 	"spawnflags" "0"
 	"origin" "-1885.79 -9023.42 1.00001"
@@ -40812,6 +41038,7 @@ entity
 {
 	"id" "1080"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "149"
 	"spawnflags" "0"
 	"origin" "-1598.76 -9097.24 1.00004"
@@ -40827,6 +41054,7 @@ entity
 {
 	"id" "1081"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "150"
 	"spawnflags" "0"
 	"origin" "-1915.17 -9464.53 1.00001"
@@ -40842,6 +41070,7 @@ entity
 {
 	"id" "1082"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "151"
 	"spawnflags" "0"
 	"origin" "-1791.65 -9471.89 1.00001"
@@ -40857,6 +41086,7 @@ entity
 {
 	"id" "1083"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "152"
 	"spawnflags" "0"
 	"origin" "-1661.78 -9484.25 1.00001"
@@ -40872,6 +41102,7 @@ entity
 {
 	"id" "1084"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "153"
 	"spawnflags" "0"
 	"origin" "-1887.25 -9298.65 1.00001"
@@ -40887,6 +41118,7 @@ entity
 {
 	"id" "1085"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "154"
 	"spawnflags" "0"
 	"origin" "-1905.15 -9167.88 1.00001"
@@ -40918,6 +41150,7 @@ entity
 {
 	"id" "1087"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "156"
 	"spawnflags" "0"
 	"origin" "-1690.39 -9114.43 1.00001"
@@ -40933,6 +41166,7 @@ entity
 {
 	"id" "1088"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "157"
 	"spawnflags" "0"
 	"origin" "-1806.79 -9199.74 1.00001"
@@ -40948,6 +41182,7 @@ entity
 {
 	"id" "1089"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "158"
 	"spawnflags" "0"
 	"origin" "-1600.84 -9214.02 1.00001"
@@ -42571,6 +42806,7 @@ entity
 {
 	"id" "1133"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "159"
 	"spawnflags" "0"
 	"origin" "-2092.87 -9392.77 1.00001"
@@ -42586,6 +42822,7 @@ entity
 {
 	"id" "1134"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "160"
 	"spawnflags" "0"
 	"origin" "-2102.21 -9268.04 1.00001"
@@ -42601,6 +42838,7 @@ entity
 {
 	"id" "1135"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "161"
 	"spawnflags" "0"
 	"origin" "-2217.71 -9389.28 1.00001"
@@ -42616,6 +42854,7 @@ entity
 {
 	"id" "1136"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "162"
 	"spawnflags" "0"
 	"origin" "-2520.39 -9401.62 1.00001"
@@ -42631,6 +42870,7 @@ entity
 {
 	"id" "1137"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "163"
 	"spawnflags" "0"
 	"origin" "-2506.84 -9288.01 1.00001"
@@ -42646,6 +42886,7 @@ entity
 {
 	"id" "1138"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "164"
 	"spawnflags" "0"
 	"origin" "-2351.35 -9388.2 1.00001"
@@ -42661,6 +42902,7 @@ entity
 {
 	"id" "1139"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "165"
 	"spawnflags" "0"
 	"origin" "-2342.04 -9291.91 1.00004"
@@ -42676,6 +42918,7 @@ entity
 {
 	"id" "1140"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "166"
 	"spawnflags" "0"
 	"origin" "-2216 -9292 20"
@@ -44386,6 +44629,7 @@ entity
 {
 	"id" "1188"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "167"
 	"spawnflags" "0"
 	"origin" "-2604.87 -9392.77 1.00001"
@@ -44401,6 +44645,7 @@ entity
 {
 	"id" "1189"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "168"
 	"spawnflags" "0"
 	"origin" "-2614.21 -9268.04 1.00001"
@@ -44416,6 +44661,7 @@ entity
 {
 	"id" "1190"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "169"
 	"spawnflags" "0"
 	"origin" "-2729.71 -9389.28 1.00001"
@@ -44431,6 +44677,7 @@ entity
 {
 	"id" "1191"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "170"
 	"spawnflags" "0"
 	"origin" "-3032.39 -9401.62 1.00001"
@@ -44446,6 +44693,7 @@ entity
 {
 	"id" "1192"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "171"
 	"spawnflags" "0"
 	"origin" "-3018.84 -9288.01 1.00001"
@@ -44461,6 +44709,7 @@ entity
 {
 	"id" "1193"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "172"
 	"spawnflags" "0"
 	"origin" "-2863.35 -9388.2 1.00001"
@@ -44476,6 +44725,7 @@ entity
 {
 	"id" "1194"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "173"
 	"spawnflags" "0"
 	"origin" "-2854.04 -9291.91 1.00004"
@@ -44491,6 +44741,7 @@ entity
 {
 	"id" "1195"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "174"
 	"spawnflags" "0"
 	"origin" "-2728 -9292 20"
@@ -44687,8 +44938,10 @@ entity
 {
 	"id" "1202"
 	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
 	"hacklevel" "5"
 	"locked" "0"
+	"needstech" "1"
 	"nopower" "0"
 	"numwires" "2"
 	"origin" "-1061 -8747 104.93"
@@ -47414,6 +47667,7 @@ entity
 {
 	"id" "1277"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "175"
 	"spawnflags" "0"
 	"origin" "-1209.61 -8900.92 1.00001"
@@ -47429,6 +47683,7 @@ entity
 {
 	"id" "1278"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "176"
 	"spawnflags" "0"
 	"origin" "-1079.75 -8887.69 1.00007"
@@ -47444,6 +47699,7 @@ entity
 {
 	"id" "1279"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "177"
 	"spawnflags" "0"
 	"origin" "-1147.2 -8790.97 1.00001"
@@ -47459,6 +47715,7 @@ entity
 {
 	"id" "1280"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "178"
 	"spawnflags" "0"
 	"origin" "-1152.19 -8665.08 1.00001"
@@ -47474,6 +47731,7 @@ entity
 {
 	"id" "1281"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "179"
 	"spawnflags" "0"
 	"origin" "-1200.22 -8545.96 1.00001"
@@ -47489,6 +47747,7 @@ entity
 {
 	"id" "1282"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "180"
 	"spawnflags" "0"
 	"origin" "-1082.23 -8531.27 1.00001"
@@ -47504,6 +47763,7 @@ entity
 {
 	"id" "1283"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "181"
 	"spawnflags" "0"
 	"origin" "-947.489 -8579.32 1.00001"
@@ -47519,6 +47779,7 @@ entity
 {
 	"id" "1284"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "182"
 	"spawnflags" "0"
 	"origin" "-818.638 -8520.47 0.999981"
@@ -47534,6 +47795,7 @@ entity
 {
 	"id" "1285"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "183"
 	"spawnflags" "0"
 	"origin" "-1187.91 -8304.23 1.00001"
@@ -47549,6 +47811,7 @@ entity
 {
 	"id" "1286"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "184"
 	"spawnflags" "0"
 	"origin" "-827.601 -8315.21 1.00001"
@@ -47564,6 +47827,7 @@ entity
 {
 	"id" "1287"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "185"
 	"spawnflags" "0"
 	"origin" "-1208.32 -8068.39 1.00004"
@@ -47579,6 +47843,7 @@ entity
 {
 	"id" "1288"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "186"
 	"spawnflags" "0"
 	"origin" "-1117.79 -7999.42 1.00001"
@@ -47594,6 +47859,7 @@ entity
 {
 	"id" "1289"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "187"
 	"spawnflags" "0"
 	"origin" "-899.259 -7990.23 0.999981"
@@ -47609,6 +47875,7 @@ entity
 {
 	"id" "1290"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "188"
 	"spawnflags" "0"
 	"origin" "-830.759 -8073.23 1.00004"
@@ -47624,6 +47891,7 @@ entity
 {
 	"id" "1291"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "189"
 	"spawnflags" "0"
 	"origin" "-1147.17 -8440.53 1.00001"
@@ -47639,6 +47907,7 @@ entity
 {
 	"id" "1292"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "190"
 	"spawnflags" "0"
 	"origin" "-1023.65 -8447.89 1.00001"
@@ -47654,6 +47923,7 @@ entity
 {
 	"id" "1293"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "191"
 	"spawnflags" "0"
 	"origin" "-893.784 -8460.25 1.00001"
@@ -47669,6 +47939,7 @@ entity
 {
 	"id" "1294"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "192"
 	"spawnflags" "0"
 	"origin" "-1119.25 -8274.65 1.00001"
@@ -47684,6 +47955,7 @@ entity
 {
 	"id" "1295"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "193"
 	"spawnflags" "0"
 	"origin" "-1137.15 -8143.88 1.00001"
@@ -47699,6 +47971,7 @@ entity
 {
 	"id" "1296"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "194"
 	"spawnflags" "0"
 	"origin" "-1017.72 -8038.16 1.00001"
@@ -47714,6 +47987,7 @@ entity
 {
 	"id" "1297"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "195"
 	"spawnflags" "0"
 	"origin" "-922.385 -8090.43 1.00001"
@@ -47729,6 +48003,7 @@ entity
 {
 	"id" "1298"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "196"
 	"spawnflags" "0"
 	"origin" "-1038.79 -8175.74 1.00001"
@@ -47744,6 +48019,7 @@ entity
 {
 	"id" "1299"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "197"
 	"spawnflags" "0"
 	"origin" "-832.842 -8190.02 1.00001"
@@ -49242,6 +49518,7 @@ entity
 {
 	"id" "1343"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "198"
 	"spawnflags" "0"
 	"origin" "83.083 -8127.67 1.00001"
@@ -49257,6 +49534,7 @@ entity
 {
 	"id" "1344"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "199"
 	"spawnflags" "0"
 	"origin" "191.134 -8110.84 1.00001"
@@ -49272,6 +49550,7 @@ entity
 {
 	"id" "1345"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "200"
 	"spawnflags" "0"
 	"origin" "67.9637 -7954.23 1.00001"
@@ -49287,6 +49566,7 @@ entity
 {
 	"id" "1346"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "201"
 	"spawnflags" "0"
 	"origin" "179.768 -7943.06 1.00001"
@@ -49302,6 +49582,7 @@ entity
 {
 	"id" "1347"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "202"
 	"spawnflags" "0"
 	"origin" "76.5687 -7804.96 1.00001"
@@ -49317,6 +49598,7 @@ entity
 {
 	"id" "1348"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "203"
 	"spawnflags" "0"
 	"origin" "171.126 -7764.26 1.00001"
@@ -49332,6 +49614,7 @@ entity
 {
 	"id" "1349"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "204"
 	"spawnflags" "0"
 	"origin" "197.334 -7549.74 1.00001"
@@ -49347,6 +49630,7 @@ entity
 {
 	"id" "1350"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "205"
 	"spawnflags" "0"
 	"origin" "218.68 -7297.6 1.00001"
@@ -49362,6 +49646,7 @@ entity
 {
 	"id" "1351"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "206"
 	"spawnflags" "0"
 	"origin" "139.85 -7208.78 1.00001"
@@ -49377,6 +49662,7 @@ entity
 {
 	"id" "1352"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "207"
 	"spawnflags" "0"
 	"origin" "50.9025 -7291.68 1.00001"
@@ -49392,6 +49678,7 @@ entity
 {
 	"id" "1353"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "208"
 	"spawnflags" "0"
 	"origin" "48.8953 -7523.38 1.00001"
@@ -49407,6 +49694,7 @@ entity
 {
 	"id" "1354"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "209"
 	"spawnflags" "0"
 	"origin" "130.206 -7372.27 1.00001"
@@ -49422,6 +49710,7 @@ entity
 {
 	"id" "1355"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "210"
 	"spawnflags" "0"
 	"origin" "133.072 -7635.82 1.00001"
@@ -49437,6 +49726,7 @@ entity
 {
 	"id" "1356"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "211"
 	"spawnflags" "0"
 	"origin" "136.527 -8037.66 1.00001"
@@ -49452,6 +49742,7 @@ entity
 {
 	"id" "1357"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "212"
 	"spawnflags" "0"
 	"origin" "130.852 -7488.06 1.00001"
@@ -61617,6 +61908,7 @@ entity
 {
 	"id" "1678"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "213"
 	"spawnflags" "0"
 	"origin" "-300.872 -8368.77 1.00001"
@@ -61632,6 +61924,7 @@ entity
 {
 	"id" "1679"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "214"
 	"spawnflags" "0"
 	"origin" "-310.214 -8244.04 1.00001"
@@ -61647,6 +61940,7 @@ entity
 {
 	"id" "1680"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "215"
 	"spawnflags" "0"
 	"origin" "-425.705 -8365.28 1.00001"
@@ -61662,6 +61956,7 @@ entity
 {
 	"id" "1681"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "216"
 	"spawnflags" "0"
 	"origin" "-728.385 -8377.62 1.00001"
@@ -61677,6 +61972,7 @@ entity
 {
 	"id" "1682"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "217"
 	"spawnflags" "0"
 	"origin" "-714.843 -8264.01 1.00001"
@@ -61692,6 +61988,7 @@ entity
 {
 	"id" "1683"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "218"
 	"spawnflags" "0"
 	"origin" "-559.352 -8364.2 1.00001"
@@ -61707,6 +62004,7 @@ entity
 {
 	"id" "1684"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "219"
 	"spawnflags" "0"
 	"origin" "-550.045 -8267.91 1.00004"
@@ -61722,6 +62020,7 @@ entity
 {
 	"id" "1685"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "220"
 	"spawnflags" "0"
 	"origin" "-424 -8268 20"
@@ -72122,6 +72421,7 @@ entity
 {
 	"id" "1972"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "221"
 	"spawnflags" "0"
 	"origin" "-356 -6760 40"
@@ -72156,6 +72456,7 @@ entity
 {
 	"id" "1974"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "222"
 	"spawnflags" "0"
 	"origin" "-252 -6760 40"
@@ -72382,6 +72683,7 @@ entity
 {
 	"id" "1980"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "223"
 	"spawnflags" "0"
 	"origin" "-356 -6680 40"
@@ -72397,6 +72699,7 @@ entity
 {
 	"id" "1981"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "224"
 	"spawnflags" "0"
 	"origin" "-252 -6680 40"
@@ -73104,6 +73407,7 @@ entity
 {
 	"id" "2000"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "225"
 	"spawnflags" "0"
 	"origin" "500 -6760 40"
@@ -73138,6 +73442,7 @@ entity
 {
 	"id" "2002"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "226"
 	"spawnflags" "0"
 	"origin" "604 -6760 40"
@@ -73364,6 +73669,7 @@ entity
 {
 	"id" "2008"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "227"
 	"spawnflags" "0"
 	"origin" "500 -6680 40"
@@ -73379,6 +73685,7 @@ entity
 {
 	"id" "2009"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "228"
 	"spawnflags" "0"
 	"origin" "604 -6680 40"
@@ -73953,8 +74260,10 @@ entity
 {
 	"id" "2025"
 	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
 	"hacklevel" "5"
 	"locked" "0"
+	"needstech" "1"
 	"nopower" "0"
 	"numwires" "2"
 	"origin" "580 -6358.25 104.93"
@@ -74971,6 +75280,7 @@ entity
 {
 	"id" "2050"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "229"
 	"spawnflags" "0"
 	"origin" "344 -6124 40"
@@ -75005,6 +75315,7 @@ entity
 {
 	"id" "2052"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "230"
 	"spawnflags" "0"
 	"origin" "344 -6020 40"
@@ -75231,6 +75542,7 @@ entity
 {
 	"id" "2058"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "231"
 	"spawnflags" "0"
 	"origin" "264 -6124 40"
@@ -75246,6 +75558,7 @@ entity
 {
 	"id" "2059"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "232"
 	"spawnflags" "0"
 	"origin" "264 -6020 40"
@@ -76489,6 +76802,7 @@ entity
 {
 	"id" "2088"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "234"
 	"spawnflags" "0"
 	"origin" "-98 -6206 39"
@@ -76504,6 +76818,7 @@ entity
 {
 	"id" "2089"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "235"
 	"spawnflags" "0"
 	"origin" "-131 -6273 39"
@@ -76519,6 +76834,7 @@ entity
 {
 	"id" "2090"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "236"
 	"spawnflags" "0"
 	"origin" "-98 -6078 39"
@@ -76662,8 +76978,10 @@ entity
 {
 	"id" "2094"
 	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
 	"hacklevel" "5"
 	"locked" "0"
+	"needstech" "1"
 	"nopower" "0"
 	"numwires" "2"
 	"origin" "-212 -6358.25 104.93"
@@ -81688,6 +82006,7 @@ entity
 {
 	"id" "2293"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -82081,6 +82400,7 @@ entity
 {
 	"id" "2310"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "237"
 	"spawnflags" "0"
 	"origin" "113.824 -5984.56 1.00001"
@@ -82096,6 +82416,7 @@ entity
 {
 	"id" "2311"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "238"
 	"spawnflags" "0"
 	"origin" "51.195 -6077.99 0.999981"
@@ -82111,6 +82432,7 @@ entity
 {
 	"id" "2312"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "239"
 	"spawnflags" "0"
 	"origin" "178.671 -6098.46 1.00001"
@@ -82126,6 +82448,7 @@ entity
 {
 	"id" "2313"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "240"
 	"spawnflags" "0"
 	"origin" "45.395 -6233.47 1.00004"
@@ -82141,6 +82464,7 @@ entity
 {
 	"id" "2314"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "241"
 	"spawnflags" "0"
 	"origin" "168.942 -6236.95 1.00001"
@@ -82156,6 +82480,7 @@ entity
 {
 	"id" "2315"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "242"
 	"spawnflags" "0"
 	"origin" "-3.535 -6362.49 1.00001"
@@ -82171,6 +82496,7 @@ entity
 {
 	"id" "2316"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "243"
 	"spawnflags" "0"
 	"origin" "171.226 -6353.16 1.00001"
@@ -82186,6 +82512,7 @@ entity
 {
 	"id" "2317"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "244"
 	"spawnflags" "0"
 	"origin" "-127.489 -6426.48 1.00001"
@@ -82201,6 +82528,7 @@ entity
 {
 	"id" "2318"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "245"
 	"spawnflags" "0"
 	"origin" "-458.345 -6525.03 1.00004"
@@ -82216,6 +82544,7 @@ entity
 {
 	"id" "2319"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "246"
 	"spawnflags" "0"
 	"origin" "-360.318 -6575.83 1.00001"
@@ -82231,6 +82560,7 @@ entity
 {
 	"id" "2320"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "247"
 	"spawnflags" "0"
 	"origin" "-238.614 -6583.49 1.00001"
@@ -82246,6 +82576,7 @@ entity
 {
 	"id" "2321"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "248"
 	"spawnflags" "0"
 	"origin" "-293.165 -6379.74 1.00001"
@@ -82261,6 +82592,7 @@ entity
 {
 	"id" "2322"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "249"
 	"spawnflags" "0"
 	"origin" "-295.641 -6275.36 1"
@@ -82276,6 +82608,7 @@ entity
 {
 	"id" "2323"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "250"
 	"spawnflags" "0"
 	"origin" "-277.078 -6029.03 1.00001"
@@ -82291,6 +82624,7 @@ entity
 {
 	"id" "2324"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "251"
 	"spawnflags" "0"
 	"origin" "-137.326 -6003.03 0.999981"
@@ -82306,6 +82640,7 @@ entity
 {
 	"id" "2325"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "252"
 	"spawnflags" "0"
 	"origin" "-186.381 -6125.76 1.00004"
@@ -82321,6 +82656,7 @@ entity
 {
 	"id" "2326"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "253"
 	"spawnflags" "0"
 	"origin" "-314.315 -6172.74 1.00001"
@@ -82336,6 +82672,7 @@ entity
 {
 	"id" "2327"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "254"
 	"spawnflags" "0"
 	"origin" "-191.339 -6255.92 1.00004"
@@ -82351,6 +82688,7 @@ entity
 {
 	"id" "2328"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "255"
 	"spawnflags" "0"
 	"origin" "421.493 -6030.55 1.00001"
@@ -82366,6 +82704,7 @@ entity
 {
 	"id" "2329"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "256"
 	"spawnflags" "0"
 	"origin" "495.53 -5982.84 1.00001"
@@ -82381,6 +82720,7 @@ entity
 {
 	"id" "2330"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "257"
 	"spawnflags" "0"
 	"origin" "620.56 -6016.52 1.00001"
@@ -82396,6 +82736,7 @@ entity
 {
 	"id" "2331"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "258"
 	"spawnflags" "0"
 	"origin" "636.85 -6082.49 1.00001"
@@ -82411,6 +82752,7 @@ entity
 {
 	"id" "2332"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "259"
 	"spawnflags" "0"
 	"origin" "414.903 -6115.2 1.00001"
@@ -82426,6 +82768,7 @@ entity
 {
 	"id" "2333"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "260"
 	"spawnflags" "0"
 	"origin" "521.74 -6190.92 1.00001"
@@ -82441,6 +82784,7 @@ entity
 {
 	"id" "2334"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "261"
 	"spawnflags" "0"
 	"origin" "478.448 -6280.86 1.00001"
@@ -82456,6 +82800,7 @@ entity
 {
 	"id" "2335"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "262"
 	"spawnflags" "0"
 	"origin" "392.289 -6223.9 1.00001"
@@ -82471,6 +82816,7 @@ entity
 {
 	"id" "2336"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "263"
 	"spawnflags" "0"
 	"origin" "607.63 -6239.31 1.00001"
@@ -82486,6 +82832,7 @@ entity
 {
 	"id" "2337"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "264"
 	"spawnflags" "0"
 	"origin" "705.55 -6508.74 1.00001"
@@ -82501,6 +82848,7 @@ entity
 {
 	"id" "2338"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "265"
 	"spawnflags" "0"
 	"origin" "589.59 -6512.44 1.00001"
@@ -82516,6 +82864,7 @@ entity
 {
 	"id" "2339"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "266"
 	"spawnflags" "0"
 	"origin" "611.66 -6609.51 1.00001"
@@ -82531,6 +82880,7 @@ entity
 {
 	"id" "2340"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "267"
 	"spawnflags" "0"
 	"origin" "478.765 -6551.84 1.00001"
@@ -82546,6 +82896,7 @@ entity
 {
 	"id" "2341"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "268"
 	"spawnflags" "0"
 	"origin" "497.58 -6379.49 1.00001"
@@ -82561,6 +82912,7 @@ entity
 {
 	"id" "2342"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "269"
 	"spawnflags" "0"
 	"origin" "268.027 -6419.04 1.00001"
@@ -82576,6 +82928,7 @@ entity
 {
 	"id" "2343"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "270"
 	"spawnflags" "0"
 	"origin" "41.205 -6430.38 1.00001"
@@ -82591,6 +82944,7 @@ entity
 {
 	"id" "2344"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "271"
 	"spawnflags" "0"
 	"origin" "-68.963 -6513.62 1.00001"
@@ -82606,6 +82960,7 @@ entity
 {
 	"id" "2345"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "272"
 	"spawnflags" "0"
 	"origin" "-125.893 -6646.2 1.00001"
@@ -82621,6 +82976,7 @@ entity
 {
 	"id" "2346"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "273"
 	"spawnflags" "0"
 	"origin" "5.30902 -6662.98 1.00001"
@@ -82636,6 +82992,7 @@ entity
 {
 	"id" "2347"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "274"
 	"spawnflags" "0"
 	"origin" "25.886 -6565.09 1.00001"
@@ -82651,6 +83008,7 @@ entity
 {
 	"id" "2348"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "275"
 	"spawnflags" "0"
 	"origin" "108.313 -6505.6 1.00001"
@@ -82666,6 +83024,7 @@ entity
 {
 	"id" "2349"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "276"
 	"spawnflags" "0"
 	"origin" "234.63 -6494.49 1.00001"
@@ -82681,6 +83040,7 @@ entity
 {
 	"id" "2350"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "277"
 	"spawnflags" "0"
 	"origin" "107.425 -6640.26 1.00001"
@@ -82696,6 +83056,7 @@ entity
 {
 	"id" "2351"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "278"
 	"spawnflags" "0"
 	"origin" "239.897 -6693.14 1.00001"
@@ -82711,6 +83072,7 @@ entity
 {
 	"id" "2352"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "279"
 	"spawnflags" "0"
 	"origin" "372.896 -6658.38 1.00001"
@@ -82726,6 +83088,7 @@ entity
 {
 	"id" "2353"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "280"
 	"spawnflags" "0"
 	"origin" "384.126 -6551.15 1.00001"
@@ -82741,6 +83104,7 @@ entity
 {
 	"id" "2354"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "281"
 	"spawnflags" "0"
 	"origin" "352.838 -6500.77 1.00001"
@@ -82756,6 +83120,7 @@ entity
 {
 	"id" "2355"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "282"
 	"spawnflags" "0"
 	"origin" "212.333 -6557.65 1.00001"
@@ -82771,6 +83136,7 @@ entity
 {
 	"id" "2356"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "283"
 	"spawnflags" "0"
 	"origin" "569.42 -6825.65 1.00001"
@@ -82786,6 +83152,7 @@ entity
 {
 	"id" "2357"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "284"
 	"spawnflags" "0"
 	"origin" "496.06 -6903.26 1.00001"
@@ -82801,6 +83168,7 @@ entity
 {
 	"id" "2358"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "285"
 	"spawnflags" "0"
 	"origin" "601.1 -6909.73 1.00001"
@@ -82816,6 +83184,7 @@ entity
 {
 	"id" "2359"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "286"
 	"spawnflags" "0"
 	"origin" "521.07 -7040.6 1.00001"
@@ -82831,6 +83200,7 @@ entity
 {
 	"id" "2360"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "287"
 	"spawnflags" "0"
 	"origin" "346.684 -7052.49 1.00001"
@@ -82846,6 +83216,7 @@ entity
 {
 	"id" "2361"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "288"
 	"spawnflags" "0"
 	"origin" "274.679 -6991.65 1.00001"
@@ -82861,6 +83232,7 @@ entity
 {
 	"id" "2362"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "289"
 	"spawnflags" "0"
 	"origin" "451.536 -6991.08 1.00001"
@@ -82876,6 +83248,7 @@ entity
 {
 	"id" "2363"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "290"
 	"spawnflags" "0"
 	"origin" "128.022 -7101.24 1.00001"
@@ -82891,6 +83264,7 @@ entity
 {
 	"id" "2364"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "291"
 	"spawnflags" "0"
 	"origin" "-261.963 -6840.74 0.99995"
@@ -82906,6 +83280,7 @@ entity
 {
 	"id" "2365"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "292"
 	"spawnflags" "0"
 	"origin" "-364.838 -6860.22 1.00001"
@@ -82921,6 +83296,7 @@ entity
 {
 	"id" "2366"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "293"
 	"spawnflags" "0"
 	"origin" "-265.246 -6929.47 1.00001"
@@ -82936,6 +83312,7 @@ entity
 {
 	"id" "2367"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "294"
 	"spawnflags" "0"
 	"origin" "-251.294 -6981.78 1.00001"
@@ -82951,6 +83328,7 @@ entity
 {
 	"id" "2368"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "295"
 	"spawnflags" "0"
 	"origin" "-361.453 -7040.23 1.00001"
@@ -82966,6 +83344,7 @@ entity
 {
 	"id" "2369"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "296"
 	"spawnflags" "0"
 	"origin" "-175.439 -7068.14 1.00001"
@@ -82981,6 +83360,7 @@ entity
 {
 	"id" "2370"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "297"
 	"spawnflags" "0"
 	"origin" "0.551025 -6983.55 1.00001"
@@ -82996,6 +83376,7 @@ entity
 {
 	"id" "2371"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "298"
 	"spawnflags" "0"
 	"origin" "-136 -6980 1.00001"
@@ -83011,6 +83392,7 @@ entity
 {
 	"id" "2372"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "299"
 	"spawnflags" "0"
 	"origin" "99.494 -6996.42 1.00001"
@@ -83026,6 +83408,7 @@ entity
 {
 	"id" "2373"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "300"
 	"spawnflags" "0"
 	"origin" "220.373 -6987.9 1.00001"
@@ -83041,6 +83424,7 @@ entity
 {
 	"id" "2374"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "301"
 	"spawnflags" "0"
 	"origin" "207.053 -6862.26 1.00001"
@@ -83056,6 +83440,7 @@ entity
 {
 	"id" "2375"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "302"
 	"spawnflags" "0"
 	"origin" "45.26 -6880.48 1.00001"
@@ -83071,6 +83456,7 @@ entity
 {
 	"id" "2376"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "303"
 	"spawnflags" "0"
 	"origin" "132.968 -6875.57 1.00001"
@@ -83086,6 +83472,7 @@ entity
 {
 	"id" "2377"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "304"
 	"spawnflags" "0"
 	"origin" "108.95 -6740.66 1.00001"
@@ -83101,6 +83488,7 @@ entity
 {
 	"id" "2378"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "305"
 	"spawnflags" "0"
 	"origin" "49.072 -6769.65 1.00001"
@@ -83116,6 +83504,7 @@ entity
 {
 	"id" "2379"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "306"
 	"spawnflags" "0"
 	"origin" "186.606 -6760.88 1.00001"
@@ -83131,6 +83520,7 @@ entity
 {
 	"id" "2380"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "307"
 	"spawnflags" "0"
 	"origin" "-23 -6077 39"
@@ -83146,6 +83536,7 @@ entity
 {
 	"id" "2381"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "308"
 	"spawnflags" "0"
 	"origin" "-28 -6207 39"
@@ -83161,6 +83552,7 @@ entity
 {
 	"id" "2382"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "309"
 	"spawnflags" "0"
 	"origin" "-307.601 -6493.31 1.00001"
@@ -83176,6 +83568,7 @@ entity
 {
 	"id" "2383"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "310"
 	"spawnflags" "0"
 	"origin" "-181.498 -6518 1.00001"
@@ -83195,21 +83588,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "1"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room41_office_holdout_spawners"
+	"teslablesp" "1"
 	"origin" "26 -5966 1.00001"
 	editor
 	{
@@ -83227,21 +83628,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "1"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room41_office_holdout_spawners"
+	"teslablesp" "1"
 	"origin" "672 -6428 1.00001"
 	editor
 	{
@@ -83259,21 +83668,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "1"
 	"LongRange" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room41_office_holdout_spawners"
+	"teslablesp" "1"
 	"origin" "-448 -6452 1.00001"
 	editor
 	{
@@ -83291,21 +83708,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 180 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "1"
 	"LongRange" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room41_office_holdout_spawners"
+	"teslablesp" "1"
 	"origin" "212 -6272 1.00001"
 	editor
 	{
@@ -83323,21 +83748,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "0"
 	"targetname" "Room41_boomers_01"
+	"teslablesp" "1"
 	"origin" "144 -5967 1.00001"
 	editor
 	{
@@ -83355,21 +83788,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "0"
 	"targetname" "Room41_boomers_01"
+	"teslablesp" "1"
 	"origin" "-464 -6546 1.00001"
 	editor
 	{
@@ -83387,21 +83828,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "0"
 	"targetname" "Room41_boomers_01"
+	"teslablesp" "1"
 	"origin" "715 -6540 1.00001"
 	editor
 	{
@@ -83669,8 +84118,10 @@ entity
 {
 	"id" "2401"
 	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
 	"hacklevel" "5"
 	"locked" "1"
+	"needstech" "1"
 	"nopower" "0"
 	"numwires" "3"
 	"origin" "1243 -6201 104.93"
@@ -87097,6 +87548,7 @@ entity
 {
 	"id" "2503"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "311"
 	"spawnflags" "0"
 	"origin" "806.516 -6518.36 1.00001"
@@ -87112,6 +87564,7 @@ entity
 {
 	"id" "2504"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "312"
 	"spawnflags" "0"
 	"origin" "1160.71 -6601.26 1.00001"
@@ -87127,6 +87580,7 @@ entity
 {
 	"id" "2505"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "313"
 	"spawnflags" "0"
 	"origin" "1480.74 -6517.42 1.00001"
@@ -87142,6 +87596,7 @@ entity
 {
 	"id" "2506"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "314"
 	"spawnflags" "0"
 	"origin" "1155.34 -6236.41 1.00001"
@@ -87157,6 +87612,7 @@ entity
 {
 	"id" "2507"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "315"
 	"spawnflags" "0"
 	"origin" "1170.55 -6100.31 1.00001"
@@ -87172,6 +87628,7 @@ entity
 {
 	"id" "2508"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "316"
 	"spawnflags" "0"
 	"origin" "815.846 -5533.9 1.00001"
@@ -87187,6 +87644,7 @@ entity
 {
 	"id" "2509"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "317"
 	"spawnflags" "0"
 	"origin" "832 -5472 1.00001"
@@ -87202,6 +87660,7 @@ entity
 {
 	"id" "2510"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "318"
 	"spawnflags" "0"
 	"origin" "1493.4 -5746.05 1.00001"
@@ -87217,6 +87676,7 @@ entity
 {
 	"id" "2511"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "319"
 	"spawnflags" "0"
 	"origin" "924.174 -6463.67 1.00001"
@@ -87232,6 +87692,7 @@ entity
 {
 	"id" "2512"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "320"
 	"spawnflags" "0"
 	"origin" "928.71 -6545.28 1.00001"
@@ -87247,6 +87708,7 @@ entity
 {
 	"id" "2513"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "321"
 	"spawnflags" "0"
 	"origin" "1335.4 -6464.58 1.00001"
@@ -87262,6 +87724,7 @@ entity
 {
 	"id" "2514"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "322"
 	"spawnflags" "0"
 	"origin" "1320.08 -6560.25 1.00001"
@@ -87277,6 +87740,7 @@ entity
 {
 	"id" "2515"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "323"
 	"spawnflags" "0"
 	"origin" "1073.84 -6481.3 1.00001"
@@ -87292,6 +87756,7 @@ entity
 {
 	"id" "2516"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "324"
 	"spawnflags" "0"
 	"origin" "1245.01 -6471.43 1.00001"
@@ -87307,6 +87772,7 @@ entity
 {
 	"id" "2517"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "325"
 	"spawnflags" "0"
 	"origin" "1097.93 -6353.48 1.00001"
@@ -87322,6 +87788,7 @@ entity
 {
 	"id" "2518"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "326"
 	"spawnflags" "0"
 	"origin" "1222.82 -6340.48 1.00001"
@@ -87337,6 +87804,7 @@ entity
 {
 	"id" "2519"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "327"
 	"spawnflags" "0"
 	"origin" "1077.39 -5991.58 1.00001"
@@ -87352,6 +87820,7 @@ entity
 {
 	"id" "2520"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "328"
 	"spawnflags" "0"
 	"origin" "1220.41 -5988.25 1.00001"
@@ -87367,6 +87836,7 @@ entity
 {
 	"id" "2521"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "329"
 	"spawnflags" "0"
 	"origin" "1357.17 -5980.49 1.00001"
@@ -87382,6 +87852,7 @@ entity
 {
 	"id" "2522"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "330"
 	"spawnflags" "0"
 	"origin" "1455.98 -5965.63 1.00001"
@@ -87397,6 +87868,7 @@ entity
 {
 	"id" "2523"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "331"
 	"spawnflags" "0"
 	"origin" "1442.6 -5832.16 1.00001"
@@ -87412,6 +87884,7 @@ entity
 {
 	"id" "2524"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "332"
 	"spawnflags" "0"
 	"origin" "1310.79 -5836.01 1.00001"
@@ -87427,6 +87900,7 @@ entity
 {
 	"id" "2525"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "333"
 	"spawnflags" "0"
 	"origin" "1212.2 -5840.21 1.00001"
@@ -87442,6 +87916,7 @@ entity
 {
 	"id" "2526"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "334"
 	"spawnflags" "0"
 	"origin" "1083.33 -5846.41 1.00001"
@@ -87457,6 +87932,7 @@ entity
 {
 	"id" "2527"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "335"
 	"spawnflags" "0"
 	"origin" "1068.97 -5686.86 1.00001"
@@ -87472,6 +87948,7 @@ entity
 {
 	"id" "2528"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "336"
 	"spawnflags" "0"
 	"origin" "962.273 -5654.8 1.00001"
@@ -87487,6 +87964,7 @@ entity
 {
 	"id" "2529"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "337"
 	"spawnflags" "0"
 	"origin" "1215.05 -5703.23 1.00001"
@@ -87502,6 +87980,7 @@ entity
 {
 	"id" "2530"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "338"
 	"spawnflags" "0"
 	"origin" "1369.27 -5691.84 1.00001"
@@ -87517,6 +87996,7 @@ entity
 {
 	"id" "2531"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "339"
 	"spawnflags" "0"
 	"origin" "1331.74 -5584 1.00001"
@@ -87532,6 +88012,7 @@ entity
 {
 	"id" "2532"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "340"
 	"spawnflags" "0"
 	"origin" "1210.94 -5522.93 1.00001"
@@ -87547,6 +88028,7 @@ entity
 {
 	"id" "2533"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "341"
 	"spawnflags" "0"
 	"origin" "1114.16 -5545.07 0.99995"
@@ -87562,6 +88044,7 @@ entity
 {
 	"id" "2534"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "342"
 	"spawnflags" "0"
 	"origin" "983.625 -5452.38 1.00001"
@@ -87577,6 +88060,7 @@ entity
 {
 	"id" "2535"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "343"
 	"spawnflags" "0"
 	"origin" "988.764 -5563.16 1.00001"
@@ -87592,6 +88076,7 @@ entity
 {
 	"id" "2536"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "344"
 	"spawnflags" "0"
 	"origin" "879.979 -5491.53 1.00001"
@@ -87607,6 +88092,7 @@ entity
 {
 	"id" "2537"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "345"
 	"spawnflags" "0"
 	"origin" "906.198 -5608.05 1.00001"
@@ -87776,19 +88262,27 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room42_drone_wall_spawn_01b"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_DOWN_WALL_128"
 	"origin" "1408 -6476 0"
 	editor
@@ -87833,19 +88327,27 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room42_drone_wall_spawn_01a"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_DOWN_WALL_128"
 	"origin" "928 -6476 0"
 	editor
@@ -87864,21 +88366,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "0"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "256"
 	"NumAliens" "2"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "0"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "0"
 	"targetname" "Room42_chokepoint_parasite_spawner"
+	"teslablesp" "1"
 	"origin" "928 -5472 1.00001"
 	editor
 	{
@@ -87896,21 +88406,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "0"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "512"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "0"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "0"
 	"targetname" "Room42_chokepoint_boomer_spawner"
+	"teslablesp" "1"
 	"origin" "1152 -5440 1.00001"
 	editor
 	{
@@ -88085,21 +88603,29 @@ entity
 	"AlienOrders" "0"
 	"angles" "0 0 0"
 	"ClearCheck" "0"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "512"
 	"NumAliens" "2"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "0"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "0"
 	"targetname" "Room42_chokepoint_harvester_spawner"
+	"teslablesp" "1"
 	"origin" "832 -5504 1.00001"
 	editor
 	{
@@ -88233,21 +88759,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "0"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "256"
 	"NumAliens" "2"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "0"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "0"
 	"targetname" "Room42_chokepoint_parasite_spawner"
+	"teslablesp" "1"
 	"origin" "992 -5472 1.00001"
 	editor
 	{
@@ -91375,8 +91909,10 @@ entity
 {
 	"id" "2635"
 	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
 	"hacklevel" "5"
 	"locked" "0"
+	"needstech" "1"
 	"nopower" "0"
 	"numwires" "2"
 	"origin" "1243 -5163 104.93"
@@ -93652,6 +94188,7 @@ entity
 {
 	"id" "2710"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "346"
 	"spawnflags" "0"
 	"origin" "1094.39 -5316.92 1.00001"
@@ -93667,6 +94204,7 @@ entity
 {
 	"id" "2711"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "347"
 	"spawnflags" "0"
 	"origin" "1224.25 -5303.69 1.00007"
@@ -93682,6 +94220,7 @@ entity
 {
 	"id" "2712"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "348"
 	"spawnflags" "0"
 	"origin" "1156.8 -5206.97 1.00001"
@@ -93697,6 +94236,7 @@ entity
 {
 	"id" "2713"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "349"
 	"spawnflags" "0"
 	"origin" "1151.81 -5081.08 1.00001"
@@ -93712,6 +94252,7 @@ entity
 {
 	"id" "2714"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "350"
 	"spawnflags" "0"
 	"origin" "1103.78 -4961.96 1.00001"
@@ -93727,6 +94268,7 @@ entity
 {
 	"id" "2715"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "351"
 	"spawnflags" "0"
 	"origin" "1221.77 -4947.27 1.00001"
@@ -93742,6 +94284,7 @@ entity
 {
 	"id" "2716"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "352"
 	"spawnflags" "0"
 	"origin" "1356.51 -4995.32 1.00001"
@@ -93757,6 +94300,7 @@ entity
 {
 	"id" "2717"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "353"
 	"spawnflags" "0"
 	"origin" "1485.36 -4936.47 0.999981"
@@ -93772,6 +94316,7 @@ entity
 {
 	"id" "2718"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "354"
 	"spawnflags" "0"
 	"origin" "1116.09 -4720.23 1.00001"
@@ -93787,6 +94332,7 @@ entity
 {
 	"id" "2719"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "355"
 	"spawnflags" "0"
 	"origin" "1476.4 -4731.21 1.00001"
@@ -93802,6 +94348,7 @@ entity
 {
 	"id" "2720"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "356"
 	"spawnflags" "0"
 	"origin" "1095.68 -4484.39 1.00004"
@@ -93817,6 +94364,7 @@ entity
 {
 	"id" "2721"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "357"
 	"spawnflags" "0"
 	"origin" "1186.21 -4415.42 1.00001"
@@ -93832,6 +94380,7 @@ entity
 {
 	"id" "2722"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "358"
 	"spawnflags" "0"
 	"origin" "1404.74 -4406.23 0.999981"
@@ -93847,6 +94396,7 @@ entity
 {
 	"id" "2723"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "359"
 	"spawnflags" "0"
 	"origin" "1473.24 -4489.23 1.00004"
@@ -93862,6 +94412,7 @@ entity
 {
 	"id" "2724"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "360"
 	"spawnflags" "0"
 	"origin" "1156.83 -4856.53 1.00001"
@@ -93877,6 +94428,7 @@ entity
 {
 	"id" "2725"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "361"
 	"spawnflags" "0"
 	"origin" "1280.35 -4863.89 1.00001"
@@ -93892,6 +94444,7 @@ entity
 {
 	"id" "2726"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "362"
 	"spawnflags" "0"
 	"origin" "1410.22 -4876.25 1.00001"
@@ -93907,6 +94460,7 @@ entity
 {
 	"id" "2727"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "363"
 	"spawnflags" "0"
 	"origin" "1184.75 -4690.65 1.00001"
@@ -93922,6 +94476,7 @@ entity
 {
 	"id" "2728"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "364"
 	"spawnflags" "0"
 	"origin" "1166.85 -4559.88 1.00001"
@@ -93937,6 +94492,7 @@ entity
 {
 	"id" "2729"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "365"
 	"spawnflags" "0"
 	"origin" "1286.28 -4454.16 1.00001"
@@ -93952,6 +94508,7 @@ entity
 {
 	"id" "2730"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "366"
 	"spawnflags" "0"
 	"origin" "1381.61 -4506.43 1.00001"
@@ -93967,6 +94524,7 @@ entity
 {
 	"id" "2731"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "367"
 	"spawnflags" "0"
 	"origin" "1265.21 -4591.74 1.00001"
@@ -93982,6 +94540,7 @@ entity
 {
 	"id" "2732"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "368"
 	"spawnflags" "0"
 	"origin" "1471.16 -4606.02 1.00001"
@@ -95605,6 +96164,7 @@ entity
 {
 	"id" "2776"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "369"
 	"spawnflags" "0"
 	"origin" "2003.13 -5808.77 1.00001"
@@ -95620,6 +96180,7 @@ entity
 {
 	"id" "2777"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "370"
 	"spawnflags" "0"
 	"origin" "1993.79 -5684.04 1.00001"
@@ -95635,6 +96196,7 @@ entity
 {
 	"id" "2778"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "371"
 	"spawnflags" "0"
 	"origin" "1878.3 -5805.28 1.00001"
@@ -95650,6 +96212,7 @@ entity
 {
 	"id" "2779"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "372"
 	"spawnflags" "0"
 	"origin" "1575.61 -5817.62 1.00001"
@@ -95665,6 +96228,7 @@ entity
 {
 	"id" "2780"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "373"
 	"spawnflags" "0"
 	"origin" "1589.16 -5704.01 1.00001"
@@ -95680,6 +96244,7 @@ entity
 {
 	"id" "2781"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "374"
 	"spawnflags" "0"
 	"origin" "1744.65 -5804.2 1.00001"
@@ -95695,6 +96260,7 @@ entity
 {
 	"id" "2782"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "375"
 	"spawnflags" "0"
 	"origin" "1753.95 -5707.91 1.00004"
@@ -95710,6 +96276,7 @@ entity
 {
 	"id" "2783"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "376"
 	"spawnflags" "0"
 	"origin" "1880 -5708 20"
@@ -98007,6 +98574,7 @@ entity
 {
 	"id" "2876"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "377"
 	"spawnflags" "0"
 	"origin" "127.993 -5322.67 0.99995"
@@ -98022,6 +98590,7 @@ entity
 {
 	"id" "2877"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "378"
 	"spawnflags" "0"
 	"origin" "129.758 -4661.29 1.00001"
@@ -98037,6 +98606,7 @@ entity
 {
 	"id" "2878"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "379"
 	"spawnflags" "0"
 	"origin" "948.328 -4736.75 0.99995"
@@ -98052,6 +98622,7 @@ entity
 {
 	"id" "2879"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "380"
 	"spawnflags" "0"
 	"origin" "764.394 -4960.76 1.00001"
@@ -98067,6 +98638,7 @@ entity
 {
 	"id" "2880"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "381"
 	"spawnflags" "0"
 	"origin" "753.006 -5151.75 -63"
@@ -98082,6 +98654,7 @@ entity
 {
 	"id" "2881"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "382"
 	"spawnflags" "0"
 	"origin" "487.49 -5209.6 -63"
@@ -98097,6 +98670,7 @@ entity
 {
 	"id" "2882"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "383"
 	"spawnflags" "0"
 	"origin" "293.854 -5192.3 0.99995"
@@ -98112,6 +98686,7 @@ entity
 {
 	"id" "2883"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "384"
 	"spawnflags" "0"
 	"origin" "870.772 -5066.87 -63"
@@ -98127,6 +98702,7 @@ entity
 {
 	"id" "2884"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "385"
 	"spawnflags" "0"
 	"origin" "854.483 -5207.35 -63.0001"
@@ -98142,6 +98718,7 @@ entity
 {
 	"id" "2885"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "386"
 	"spawnflags" "0"
 	"origin" "641.87 -5077.6 -63"
@@ -98157,6 +98734,7 @@ entity
 {
 	"id" "2886"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "387"
 	"spawnflags" "0"
 	"origin" "569.476 -5214.6 -62.9999"
@@ -98172,6 +98750,7 @@ entity
 {
 	"id" "2887"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "388"
 	"spawnflags" "0"
 	"origin" "457.903 -5096.76 -62.9999"
@@ -98187,6 +98766,7 @@ entity
 {
 	"id" "2888"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "389"
 	"spawnflags" "0"
 	"origin" "740.369 -5237.74 -63"
@@ -98202,6 +98782,7 @@ entity
 {
 	"id" "2889"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "390"
 	"spawnflags" "0"
 	"origin" "883.996 -4913.9 1.00001"
@@ -98217,6 +98798,7 @@ entity
 {
 	"id" "2890"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "391"
 	"spawnflags" "0"
 	"origin" "841.559 -4764.52 1.00001"
@@ -98232,6 +98814,7 @@ entity
 {
 	"id" "2891"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "392"
 	"spawnflags" "0"
 	"origin" "847.603 -4686.08 0.99995"
@@ -98247,6 +98830,7 @@ entity
 {
 	"id" "2892"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "393"
 	"spawnflags" "0"
 	"origin" "758.709 -4860.99 1.00001"
@@ -98262,6 +98846,7 @@ entity
 {
 	"id" "2893"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "394"
 	"spawnflags" "0"
 	"origin" "603.621 -4953.69 1.00001"
@@ -98277,6 +98862,7 @@ entity
 {
 	"id" "2894"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "395"
 	"spawnflags" "0"
 	"origin" "586.385 -4823.57 1.00001"
@@ -98292,6 +98878,7 @@ entity
 {
 	"id" "2895"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "396"
 	"spawnflags" "0"
 	"origin" "497.442 -4900.49 1.00001"
@@ -98307,6 +98894,7 @@ entity
 {
 	"id" "2896"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "397"
 	"spawnflags" "0"
 	"origin" "403.211 -4947.29 1.00001"
@@ -98322,6 +98910,7 @@ entity
 {
 	"id" "2897"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "398"
 	"spawnflags" "0"
 	"origin" "364.545 -4837.26 1.00001"
@@ -98337,6 +98926,7 @@ entity
 {
 	"id" "2898"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "399"
 	"spawnflags" "0"
 	"origin" "320.661 -4707.38 1.00001"
@@ -98352,6 +98942,7 @@ entity
 {
 	"id" "2899"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "400"
 	"spawnflags" "0"
 	"origin" "223.921 -4724.51 1.00001"
@@ -98367,6 +98958,7 @@ entity
 {
 	"id" "2900"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "401"
 	"spawnflags" "0"
 	"origin" "113.787 -4747.6 1.00001"
@@ -98382,6 +98974,7 @@ entity
 {
 	"id" "2901"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "402"
 	"spawnflags" "0"
 	"origin" "213.154 -4841.16 1.00001"
@@ -98397,6 +98990,7 @@ entity
 {
 	"id" "2902"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "403"
 	"spawnflags" "0"
 	"origin" "271.899 -4936.52 1.00001"
@@ -98412,6 +99006,7 @@ entity
 {
 	"id" "2903"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "404"
 	"spawnflags" "0"
 	"origin" "148.763 -4982.05 1.00001"
@@ -98427,6 +99022,7 @@ entity
 {
 	"id" "2904"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "405"
 	"spawnflags" "0"
 	"origin" "229.399 -5066.19 0.99995"
@@ -98442,6 +99038,7 @@ entity
 {
 	"id" "2905"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "406"
 	"spawnflags" "0"
 	"origin" "202.983 -5192.29 1.00001"
@@ -98457,6 +99054,7 @@ entity
 {
 	"id" "2906"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "407"
 	"spawnflags" "0"
 	"origin" "236.309 -5274.36 1.00001"
@@ -98472,6 +99070,7 @@ entity
 {
 	"id" "2907"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "408"
 	"spawnflags" "0"
 	"origin" "96.6786 -5225.04 1.00001"
@@ -98610,19 +99209,27 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "4"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room49_drone_wall_spawn_05"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_DOWN_WALL_128"
 	"origin" "376 -4716 0"
 	editor
@@ -98667,19 +99274,27 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room49_drone_wall_spawn_06"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_DOWN_WALL_128"
 	"origin" "856 -4716 0"
 	editor
@@ -98892,21 +99507,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "2"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room49_drone_wall_spawn_05"
+	"teslablesp" "1"
 	"origin" "640 -5076.05 -63"
 	editor
 	{
@@ -98950,19 +99573,27 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 90 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room49_drone_wall_spawn_06"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_DOWN_WALL_128"
 	"origin" "728 -5268 -64"
 	editor
@@ -98981,21 +99612,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "3"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "0"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "0"
 	"targetname" "Room49_server_random_spawn_02"
+	"teslablesp" "1"
 	"origin" "351.067 -4901.13 1.00001"
 	editor
 	{
@@ -100617,6 +101256,7 @@ entity
 {
 	"id" "2968"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "409"
 	"spawnflags" "0"
 	"origin" "723.128 -7344.77 1.00001"
@@ -100632,6 +101272,7 @@ entity
 {
 	"id" "2969"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "410"
 	"spawnflags" "0"
 	"origin" "713.786 -7220.04 1.00001"
@@ -100647,6 +101288,7 @@ entity
 {
 	"id" "2970"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "411"
 	"spawnflags" "0"
 	"origin" "598.295 -7341.28 1.00001"
@@ -100662,6 +101304,7 @@ entity
 {
 	"id" "2971"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "412"
 	"spawnflags" "0"
 	"origin" "295.615 -7353.62 1.00001"
@@ -100677,6 +101320,7 @@ entity
 {
 	"id" "2972"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "413"
 	"spawnflags" "0"
 	"origin" "309.157 -7240.01 1.00001"
@@ -100692,6 +101336,7 @@ entity
 {
 	"id" "2973"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "414"
 	"spawnflags" "0"
 	"origin" "464.648 -7340.2 1.00001"
@@ -100707,6 +101352,7 @@ entity
 {
 	"id" "2974"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "415"
 	"spawnflags" "0"
 	"origin" "473.955 -7243.91 1.00004"
@@ -100722,6 +101368,7 @@ entity
 {
 	"id" "2975"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "416"
 	"spawnflags" "0"
 	"origin" "600 -7244 20"
@@ -102432,6 +103079,7 @@ entity
 {
 	"id" "3023"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "417"
 	"spawnflags" "0"
 	"origin" "979.128 -4528.77 1.00001"
@@ -102447,6 +103095,7 @@ entity
 {
 	"id" "3024"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "418"
 	"spawnflags" "0"
 	"origin" "969.786 -4404.04 1.00001"
@@ -102462,6 +103111,7 @@ entity
 {
 	"id" "3025"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "419"
 	"spawnflags" "0"
 	"origin" "854.295 -4525.28 1.00001"
@@ -102477,6 +103127,7 @@ entity
 {
 	"id" "3026"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "420"
 	"spawnflags" "0"
 	"origin" "551.615 -4537.62 1.00001"
@@ -102492,6 +103143,7 @@ entity
 {
 	"id" "3027"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "421"
 	"spawnflags" "0"
 	"origin" "565.157 -4424.01 1.00001"
@@ -102507,6 +103159,7 @@ entity
 {
 	"id" "3028"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "422"
 	"spawnflags" "0"
 	"origin" "720.648 -4524.2 1.00001"
@@ -102522,6 +103175,7 @@ entity
 {
 	"id" "3029"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "423"
 	"spawnflags" "0"
 	"origin" "729.955 -4427.91 1.00004"
@@ -102537,6 +103191,7 @@ entity
 {
 	"id" "3030"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "424"
 	"spawnflags" "0"
 	"origin" "856 -4428 20"
@@ -104247,6 +104902,7 @@ entity
 {
 	"id" "3078"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "425"
 	"spawnflags" "0"
 	"origin" "723.128 -7600.77 1.00001"
@@ -104262,6 +104918,7 @@ entity
 {
 	"id" "3079"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "426"
 	"spawnflags" "0"
 	"origin" "713.786 -7476.04 1.00001"
@@ -104277,6 +104934,7 @@ entity
 {
 	"id" "3080"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "427"
 	"spawnflags" "0"
 	"origin" "598.295 -7597.28 1.00001"
@@ -104292,6 +104950,7 @@ entity
 {
 	"id" "3081"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "428"
 	"spawnflags" "0"
 	"origin" "295.615 -7609.62 1.00001"
@@ -104307,6 +104966,7 @@ entity
 {
 	"id" "3082"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "429"
 	"spawnflags" "0"
 	"origin" "309.157 -7496.01 1.00001"
@@ -104322,6 +104982,7 @@ entity
 {
 	"id" "3083"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "430"
 	"spawnflags" "0"
 	"origin" "464.648 -7596.2 1.00001"
@@ -104337,6 +104998,7 @@ entity
 {
 	"id" "3084"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "431"
 	"spawnflags" "0"
 	"origin" "473.955 -7499.91 1.00004"
@@ -104352,6 +105014,7 @@ entity
 {
 	"id" "3085"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "432"
 	"spawnflags" "0"
 	"origin" "600 -7500 20"
@@ -106062,6 +106725,7 @@ entity
 {
 	"id" "3133"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "433"
 	"spawnflags" "0"
 	"origin" "-44.872 -7600.77 1.00001"
@@ -106077,6 +106741,7 @@ entity
 {
 	"id" "3134"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "434"
 	"spawnflags" "0"
 	"origin" "-54.214 -7476.04 1.00001"
@@ -106092,6 +106757,7 @@ entity
 {
 	"id" "3135"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "435"
 	"spawnflags" "0"
 	"origin" "-169.705 -7597.28 1.00001"
@@ -106107,6 +106773,7 @@ entity
 {
 	"id" "3136"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "436"
 	"spawnflags" "0"
 	"origin" "-472.385 -7609.62 1.00001"
@@ -106122,6 +106789,7 @@ entity
 {
 	"id" "3138"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "438"
 	"spawnflags" "0"
 	"origin" "-303.352 -7596.2 1.00001"
@@ -106137,6 +106805,7 @@ entity
 {
 	"id" "3139"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "439"
 	"spawnflags" "0"
 	"origin" "-294.045 -7499.91 1.00004"
@@ -108533,6 +109202,7 @@ entity
 {
 	"id" "3218"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "441"
 	"spawnflags" "0"
 	"origin" "2658.13 -6588.69 1.00001"
@@ -108548,6 +109218,7 @@ entity
 {
 	"id" "3219"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "442"
 	"spawnflags" "0"
 	"origin" "2447.94 -6394.63 1.00001"
@@ -108563,6 +109234,7 @@ entity
 {
 	"id" "3220"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "443"
 	"spawnflags" "0"
 	"origin" "2266.13 -6383.19 -62.9999"
@@ -108578,6 +109250,7 @@ entity
 {
 	"id" "3221"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "444"
 	"spawnflags" "0"
 	"origin" "2136.45 -6113.14 -63"
@@ -108593,6 +109266,7 @@ entity
 {
 	"id" "3222"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "445"
 	"spawnflags" "0"
 	"origin" "2140.26 -5927.67 1.00001"
@@ -108608,6 +109282,7 @@ entity
 {
 	"id" "3223"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "446"
 	"spawnflags" "0"
 	"origin" "2510.54 -6502.68 1.00001"
@@ -108623,6 +109298,7 @@ entity
 {
 	"id" "3224"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "447"
 	"spawnflags" "0"
 	"origin" "2651.35 -6484.99 1.00001"
@@ -108638,6 +109314,7 @@ entity
 {
 	"id" "3225"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "448"
 	"spawnflags" "0"
 	"origin" "2733.82 -6388.64 1.00001"
@@ -108653,6 +109330,7 @@ entity
 {
 	"id" "3226"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "449"
 	"spawnflags" "0"
 	"origin" "2576.6 -6373.68 1.00001"
@@ -108668,6 +109346,7 @@ entity
 {
 	"id" "3227"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "450"
 	"spawnflags" "0"
 	"origin" "2476.58 -6191.36 1.00001"
@@ -108683,6 +109362,7 @@ entity
 {
 	"id" "3228"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "451"
 	"spawnflags" "0"
 	"origin" "2604.53 -6208.36 1.00001"
@@ -108698,6 +109378,7 @@ entity
 {
 	"id" "3229"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "452"
 	"spawnflags" "0"
 	"origin" "2545.07 -6125.03 1.00001"
@@ -108713,6 +109394,7 @@ entity
 {
 	"id" "3230"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "453"
 	"spawnflags" "0"
 	"origin" "2745.66 -6066.14 1.00001"
@@ -108728,6 +109410,7 @@ entity
 {
 	"id" "3231"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "454"
 	"spawnflags" "0"
 	"origin" "2730.53 -5978.79 1.00001"
@@ -108743,6 +109426,7 @@ entity
 {
 	"id" "3232"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "455"
 	"spawnflags" "0"
 	"origin" "2635.7 -5998.88 1.00001"
@@ -108758,6 +109442,7 @@ entity
 {
 	"id" "3233"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "456"
 	"spawnflags" "0"
 	"origin" "2540.44 -6023.37 1.00001"
@@ -108773,6 +109458,7 @@ entity
 {
 	"id" "3234"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "457"
 	"spawnflags" "0"
 	"origin" "2476.4 -5965.95 1.00001"
@@ -108788,6 +109474,7 @@ entity
 {
 	"id" "3235"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "458"
 	"spawnflags" "0"
 	"origin" "2747.45 -5751.59 1.00001"
@@ -108803,6 +109490,7 @@ entity
 {
 	"id" "3236"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "459"
 	"spawnflags" "0"
 	"origin" "2092.44 -5750.11 1.00001"
@@ -108818,6 +109506,7 @@ entity
 {
 	"id" "3237"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "460"
 	"spawnflags" "0"
 	"origin" "2154.08 -5854.34 1.00007"
@@ -108833,6 +109522,7 @@ entity
 {
 	"id" "3238"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "461"
 	"spawnflags" "0"
 	"origin" "2197.24 -5724.55 1.00001"
@@ -108848,6 +109538,7 @@ entity
 {
 	"id" "3239"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "462"
 	"spawnflags" "0"
 	"origin" "2262.77 -5842.93 1.00001"
@@ -108863,6 +109554,7 @@ entity
 {
 	"id" "3240"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "463"
 	"spawnflags" "0"
 	"origin" "2350.56 -5839.69 1.00001"
@@ -108878,6 +109570,7 @@ entity
 {
 	"id" "3241"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "464"
 	"spawnflags" "0"
 	"origin" "2430.49 -5775.27 0.99995"
@@ -108893,6 +109586,7 @@ entity
 {
 	"id" "3242"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "465"
 	"spawnflags" "0"
 	"origin" "2489.33 -5887.58 1.00001"
@@ -108908,6 +109602,7 @@ entity
 {
 	"id" "3243"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "466"
 	"spawnflags" "0"
 	"origin" "2601.25 -5781.19 1.00001"
@@ -108923,6 +109618,7 @@ entity
 {
 	"id" "3244"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "467"
 	"spawnflags" "0"
 	"origin" "2662.27 -5865.12 1.00001"
@@ -108938,6 +109634,7 @@ entity
 {
 	"id" "3245"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "468"
 	"spawnflags" "0"
 	"origin" "2509.63 -6290.3 1.00001"
@@ -108953,6 +109650,7 @@ entity
 {
 	"id" "3246"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "469"
 	"spawnflags" "0"
 	"origin" "2714.4 -6538.63 1.00001"
@@ -108968,6 +109666,7 @@ entity
 {
 	"id" "3247"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "470"
 	"spawnflags" "0"
 	"origin" "2341.8 -6511.44 -63"
@@ -108983,6 +109682,7 @@ entity
 {
 	"id" "3248"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "471"
 	"spawnflags" "0"
 	"origin" "2204.8 -6504.22 -63"
@@ -108998,6 +109698,7 @@ entity
 {
 	"id" "3249"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "472"
 	"spawnflags" "0"
 	"origin" "2124.51 -6178.75 -63"
@@ -109013,6 +109714,7 @@ entity
 {
 	"id" "3250"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "473"
 	"spawnflags" "0"
 	"origin" "2263.3 -6007.82 -63"
@@ -109028,6 +109730,7 @@ entity
 {
 	"id" "3251"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "474"
 	"spawnflags" "0"
 	"origin" "2228.3 -6138.09 -62.9999"
@@ -109043,6 +109746,7 @@ entity
 {
 	"id" "3252"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "475"
 	"spawnflags" "0"
 	"origin" "2296.1 -6275.16 -63"
@@ -109058,6 +109762,7 @@ entity
 {
 	"id" "3253"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "476"
 	"spawnflags" "0"
 	"origin" "2144.98 -6316.18 -63"
@@ -109073,6 +109778,7 @@ entity
 {
 	"id" "3254"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "477"
 	"spawnflags" "0"
 	"origin" "2182.03 -6401.74 -63"
@@ -109291,19 +109997,27 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "4"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room54_drone_wall_spawn_03"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_DOWN_WALL_128"
 	"origin" "2496 -5804 0"
 	editor
@@ -109348,19 +110062,27 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room54_drone_wall_spawn_02"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_DOWN_WALL_128"
 	"origin" "2368 -5804 0"
 	editor
@@ -109405,19 +110127,27 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room54_drone_wall_spawn_02"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_DOWN_WALL_128"
 	"origin" "2156 -6240 -64"
 	editor
@@ -109436,21 +110166,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "2"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room54_drone_wall_spawn_03"
+	"teslablesp" "1"
 	"origin" "2171.05 -6400.09 -63"
 	editor
 	{
@@ -109468,19 +110206,27 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "0"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "0"
 	"targetname" "Room54_mortar_random_spawn_01"
+	"teslablesp" "1"
 	"origin" "2557 -6171 0"
 	editor
 	{
@@ -111870,6 +112616,7 @@ entity
 {
 	"id" "3344"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "478"
 	"spawnflags" "0"
 	"origin" "1378.13 -8380.69 1.00001"
@@ -111885,6 +112632,7 @@ entity
 {
 	"id" "3345"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "479"
 	"spawnflags" "0"
 	"origin" "1167.94 -8186.63 1.00001"
@@ -111900,6 +112648,7 @@ entity
 {
 	"id" "3346"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "480"
 	"spawnflags" "0"
 	"origin" "986.126 -8175.19 -62.9999"
@@ -111915,6 +112664,7 @@ entity
 {
 	"id" "3347"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "481"
 	"spawnflags" "0"
 	"origin" "856.449 -7905.14 -63"
@@ -111930,6 +112680,7 @@ entity
 {
 	"id" "3348"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "482"
 	"spawnflags" "0"
 	"origin" "860.26 -7719.67 1.00001"
@@ -111945,6 +112696,7 @@ entity
 {
 	"id" "3349"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "483"
 	"spawnflags" "0"
 	"origin" "1230.54 -8294.68 1.00001"
@@ -111960,6 +112712,7 @@ entity
 {
 	"id" "3350"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "484"
 	"spawnflags" "0"
 	"origin" "1371.35 -8276.99 1.00001"
@@ -111975,6 +112728,7 @@ entity
 {
 	"id" "3351"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "485"
 	"spawnflags" "0"
 	"origin" "1453.82 -8180.64 1.00001"
@@ -111990,6 +112744,7 @@ entity
 {
 	"id" "3352"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "486"
 	"spawnflags" "0"
 	"origin" "1296.6 -8165.68 1.00001"
@@ -112005,6 +112760,7 @@ entity
 {
 	"id" "3353"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "487"
 	"spawnflags" "0"
 	"origin" "1196.58 -7983.36 1.00001"
@@ -112020,6 +112776,7 @@ entity
 {
 	"id" "3354"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "488"
 	"spawnflags" "0"
 	"origin" "1324.53 -8000.36 1.00001"
@@ -112035,6 +112792,7 @@ entity
 {
 	"id" "3355"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "489"
 	"spawnflags" "0"
 	"origin" "1265.07 -7917.03 1.00001"
@@ -112050,6 +112808,7 @@ entity
 {
 	"id" "3356"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "490"
 	"spawnflags" "0"
 	"origin" "1465.66 -7858.14 1.00001"
@@ -112065,6 +112824,7 @@ entity
 {
 	"id" "3357"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "491"
 	"spawnflags" "0"
 	"origin" "1450.53 -7770.79 1.00001"
@@ -112080,6 +112840,7 @@ entity
 {
 	"id" "3358"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "492"
 	"spawnflags" "0"
 	"origin" "1355.7 -7790.88 1.00001"
@@ -112095,6 +112856,7 @@ entity
 {
 	"id" "3359"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "493"
 	"spawnflags" "0"
 	"origin" "1260.44 -7815.37 1.00001"
@@ -112110,6 +112872,7 @@ entity
 {
 	"id" "3360"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "494"
 	"spawnflags" "0"
 	"origin" "1196.4 -7757.95 1.00001"
@@ -112125,6 +112888,7 @@ entity
 {
 	"id" "3361"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "495"
 	"spawnflags" "0"
 	"origin" "1467.45 -7543.59 1.00001"
@@ -112140,6 +112904,7 @@ entity
 {
 	"id" "3362"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "496"
 	"spawnflags" "0"
 	"origin" "812.438 -7542.11 1.00001"
@@ -112155,6 +112920,7 @@ entity
 {
 	"id" "3363"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "497"
 	"spawnflags" "0"
 	"origin" "874.082 -7646.34 1.00007"
@@ -112170,6 +112936,7 @@ entity
 {
 	"id" "3364"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "498"
 	"spawnflags" "0"
 	"origin" "917.238 -7516.55 1.00001"
@@ -112185,6 +112952,7 @@ entity
 {
 	"id" "3365"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "499"
 	"spawnflags" "0"
 	"origin" "982.769 -7634.93 1.00001"
@@ -112200,6 +112968,7 @@ entity
 {
 	"id" "3366"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "500"
 	"spawnflags" "0"
 	"origin" "1070.56 -7631.69 1.00001"
@@ -112215,6 +112984,7 @@ entity
 {
 	"id" "3367"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "501"
 	"spawnflags" "0"
 	"origin" "1150.49 -7567.27 0.99995"
@@ -112230,6 +113000,7 @@ entity
 {
 	"id" "3368"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "502"
 	"spawnflags" "0"
 	"origin" "1209.33 -7679.58 1.00001"
@@ -112245,6 +113016,7 @@ entity
 {
 	"id" "3369"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "503"
 	"spawnflags" "0"
 	"origin" "1321.25 -7573.19 1.00001"
@@ -112260,6 +113032,7 @@ entity
 {
 	"id" "3370"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "504"
 	"spawnflags" "0"
 	"origin" "1382.27 -7657.12 1.00001"
@@ -112275,6 +113048,7 @@ entity
 {
 	"id" "3371"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "505"
 	"spawnflags" "0"
 	"origin" "1229.63 -8082.3 1.00001"
@@ -112290,6 +113064,7 @@ entity
 {
 	"id" "3372"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "506"
 	"spawnflags" "0"
 	"origin" "1434.4 -8330.63 1.00001"
@@ -112305,6 +113080,7 @@ entity
 {
 	"id" "3373"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "507"
 	"spawnflags" "0"
 	"origin" "1061.8 -8303.44 -63"
@@ -112320,6 +113096,7 @@ entity
 {
 	"id" "3374"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "508"
 	"spawnflags" "0"
 	"origin" "924.798 -8296.22 -63"
@@ -112335,6 +113112,7 @@ entity
 {
 	"id" "3375"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "509"
 	"spawnflags" "0"
 	"origin" "844.509 -7970.75 -63"
@@ -112350,6 +113128,7 @@ entity
 {
 	"id" "3376"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "510"
 	"spawnflags" "0"
 	"origin" "983.304 -7799.82 -63"
@@ -112365,6 +113144,7 @@ entity
 {
 	"id" "3377"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "511"
 	"spawnflags" "0"
 	"origin" "948.296 -7930.09 -62.9999"
@@ -112380,6 +113160,7 @@ entity
 {
 	"id" "3378"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "512"
 	"spawnflags" "0"
 	"origin" "1016.1 -8067.16 -63"
@@ -112395,6 +113176,7 @@ entity
 {
 	"id" "3379"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "513"
 	"spawnflags" "0"
 	"origin" "864.981 -8108.18 -63"
@@ -112410,6 +113192,7 @@ entity
 {
 	"id" "3380"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "514"
 	"spawnflags" "0"
 	"origin" "902.033 -8193.74 -63"
@@ -112628,19 +113411,27 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "4"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room55_drone_wall_spawn_03"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_DOWN_WALL_128"
 	"origin" "1216 -7596 0"
 	editor
@@ -112685,19 +113476,27 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room55_drone_wall_spawn_02"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_DOWN_WALL_128"
 	"origin" "1088 -7596 0"
 	editor
@@ -112742,19 +113541,27 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room55_drone_wall_spawn_02"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_DOWN_WALL_128"
 	"origin" "876 -8032 -64"
 	editor
@@ -112773,21 +113580,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "2"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room55_drone_wall_spawn_03"
+	"teslablesp" "1"
 	"origin" "891.05 -8192.09 -63"
 	editor
 	{
@@ -112805,19 +113620,27 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "0"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "0"
 	"targetname" "Room55_mortar_random_spawn_01"
+	"teslablesp" "1"
 	"origin" "1277 -7963 0"
 	editor
 	{
@@ -113022,8 +113845,10 @@ entity
 {
 	"id" "3399"
 	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
 	"hacklevel" "5"
 	"locked" "0"
+	"needstech" "1"
 	"nopower" "0"
 	"numwires" "2"
 	"origin" "3760 -4553 264.93"
@@ -113358,6 +114183,7 @@ entity
 {
 	"id" "3408"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "515"
 	"spawnflags" "0"
 	"origin" "4170.61 -5481.41 31"
@@ -113373,6 +114199,7 @@ entity
 {
 	"id" "3409"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "516"
 	"spawnflags" "0"
 	"origin" "4169 -5384 31"
@@ -113388,6 +114215,7 @@ entity
 {
 	"id" "3410"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "517"
 	"spawnflags" "0"
 	"origin" "4055.15 -5390.81 89.647"
@@ -113403,6 +114231,7 @@ entity
 {
 	"id" "3411"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "518"
 	"spawnflags" "0"
 	"origin" "4056.75 -5488.22 89.647"
@@ -113418,6 +114247,7 @@ entity
 {
 	"id" "3412"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "519"
 	"spawnflags" "0"
 	"origin" "3971.15 -5485.14 129.734"
@@ -113433,6 +114263,7 @@ entity
 {
 	"id" "3413"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "520"
 	"spawnflags" "0"
 	"origin" "3969.54 -5387.73 129.734"
@@ -113646,6 +114477,7 @@ entity
 {
 	"id" "3419"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "521"
 	"spawnflags" "0"
 	"origin" "4170.61 -4973.41 31"
@@ -113661,6 +114493,7 @@ entity
 {
 	"id" "3420"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "522"
 	"spawnflags" "0"
 	"origin" "4169 -4876 31"
@@ -113676,6 +114509,7 @@ entity
 {
 	"id" "3421"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "523"
 	"spawnflags" "0"
 	"origin" "4055.15 -4882.81 89.647"
@@ -113691,6 +114525,7 @@ entity
 {
 	"id" "3422"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "524"
 	"spawnflags" "0"
 	"origin" "4056.75 -4980.22 89.647"
@@ -113706,6 +114541,7 @@ entity
 {
 	"id" "3423"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "525"
 	"spawnflags" "0"
 	"origin" "3971.15 -4977.14 129.734"
@@ -113721,6 +114557,7 @@ entity
 {
 	"id" "3424"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "526"
 	"spawnflags" "0"
 	"origin" "3969.54 -4879.73 129.734"
@@ -113933,6 +114770,7 @@ entity
 {
 	"id" "3430"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "527"
 	"spawnflags" "0"
 	"origin" "3253.39 -5146.59 31"
@@ -113948,6 +114786,7 @@ entity
 {
 	"id" "3431"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "528"
 	"spawnflags" "0"
 	"origin" "3255 -5244 31"
@@ -113963,6 +114802,7 @@ entity
 {
 	"id" "3432"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "529"
 	"spawnflags" "0"
 	"origin" "3368.85 -5237.19 89.647"
@@ -113978,6 +114818,7 @@ entity
 {
 	"id" "3433"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "530"
 	"spawnflags" "0"
 	"origin" "3367.25 -5139.78 89.647"
@@ -113993,6 +114834,7 @@ entity
 {
 	"id" "3434"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "531"
 	"spawnflags" "0"
 	"origin" "3452.85 -5142.86 129.734"
@@ -114008,6 +114850,7 @@ entity
 {
 	"id" "3435"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "532"
 	"spawnflags" "0"
 	"origin" "3454.46 -5240.27 129.734"
@@ -114220,6 +115063,7 @@ entity
 {
 	"id" "3441"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "533"
 	"spawnflags" "0"
 	"origin" "3610.59 -5834.61 31"
@@ -114235,6 +115079,7 @@ entity
 {
 	"id" "3442"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "534"
 	"spawnflags" "0"
 	"origin" "3708 -5833 31"
@@ -114250,6 +115095,7 @@ entity
 {
 	"id" "3443"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "535"
 	"spawnflags" "0"
 	"origin" "3701.19 -5719.15 89.647"
@@ -114265,6 +115111,7 @@ entity
 {
 	"id" "3444"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "536"
 	"spawnflags" "0"
 	"origin" "3603.78 -5720.75 89.647"
@@ -114280,6 +115127,7 @@ entity
 {
 	"id" "3445"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "537"
 	"spawnflags" "0"
 	"origin" "3606.86 -5635.15 129.734"
@@ -114295,6 +115143,7 @@ entity
 {
 	"id" "3446"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "538"
 	"spawnflags" "0"
 	"origin" "3704.27 -5633.54 129.734"
@@ -116731,9 +117580,11 @@ entity
 {
 	"id" "3532"
 	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
 	"disableafteruse" "0"
 	"hacklevel" "0"
 	"locked" "0"
+	"needstech" "1"
 	"nopower" "0"
 	"numwires" "3"
 	"origin" "3560 -4856 196.33"
@@ -117062,6 +117913,7 @@ entity
 {
 	"id" "3540"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "539"
 	"spawnflags" "0"
 	"origin" "3648 -4856 161.326"
@@ -117077,6 +117929,7 @@ entity
 {
 	"id" "3541"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "540"
 	"spawnflags" "0"
 	"origin" "3648 -4744 161.326"
@@ -120353,6 +121206,7 @@ entity
 {
 	"id" "3617"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "542"
 	"spawnflags" "0"
 	"origin" "3024 -4836 32"
@@ -120368,6 +121222,7 @@ entity
 {
 	"id" "3618"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "543"
 	"spawnflags" "0"
 	"origin" "3024 -4752 32"
@@ -120404,6 +121259,7 @@ entity
 {
 	"id" "3620"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "544"
 	"spawnflags" "0"
 	"origin" "4232 -4836 32"
@@ -120439,6 +121295,7 @@ entity
 {
 	"id" "3622"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "545"
 	"spawnflags" "0"
 	"origin" "4232 -4752 32"
@@ -120454,6 +121311,7 @@ entity
 {
 	"id" "3623"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "546"
 	"spawnflags" "0"
 	"origin" "4472 -4836 32"
@@ -120489,6 +121347,7 @@ entity
 {
 	"id" "3625"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "547"
 	"spawnflags" "0"
 	"origin" "4472 -4752 32"
@@ -123490,6 +124349,7 @@ entity
 {
 	"id" "3742"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "548"
 	"spawnflags" "0"
 	"origin" "2901.61 -5774.23 1.00001"
@@ -123505,6 +124365,7 @@ entity
 {
 	"id" "3743"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "549"
 	"spawnflags" "0"
 	"origin" "2900.6 -4995.09 1.00001"
@@ -123520,6 +124381,7 @@ entity
 {
 	"id" "3744"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "550"
 	"spawnflags" "0"
 	"origin" "3211.25 -6062.93 1.00001"
@@ -123535,6 +124397,7 @@ entity
 {
 	"id" "3745"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "551"
 	"spawnflags" "0"
 	"origin" "4240.29 -6059.76 1.00001"
@@ -123550,6 +124413,7 @@ entity
 {
 	"id" "3746"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "552"
 	"spawnflags" "0"
 	"origin" "4533 -5740.51 1.00001"
@@ -123565,6 +124429,7 @@ entity
 {
 	"id" "3747"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "553"
 	"spawnflags" "0"
 	"origin" "4516 -4940 1.00001"
@@ -123580,6 +124445,7 @@ entity
 {
 	"id" "3748"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "554"
 	"spawnflags" "0"
 	"origin" "4289.72 -4888.51 1.00001"
@@ -123595,6 +124461,7 @@ entity
 {
 	"id" "3749"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "555"
 	"spawnflags" "0"
 	"origin" "4424 -4904 1.00001"
@@ -123610,6 +124477,7 @@ entity
 {
 	"id" "3750"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "556"
 	"spawnflags" "0"
 	"origin" "4456.51 -5024.92 1.00001"
@@ -123625,6 +124493,7 @@ entity
 {
 	"id" "3751"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "557"
 	"spawnflags" "0"
 	"origin" "4283.04 -5021.34 1.00001"
@@ -123640,6 +124509,7 @@ entity
 {
 	"id" "3752"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "558"
 	"spawnflags" "0"
 	"origin" "4456.03 -5142.15 1.00001"
@@ -123655,6 +124525,7 @@ entity
 {
 	"id" "3753"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "559"
 	"spawnflags" "0"
 	"origin" "4338.29 -5185.18 1.00001"
@@ -123670,6 +124541,7 @@ entity
 {
 	"id" "3754"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "560"
 	"spawnflags" "0"
 	"origin" "4441.09 -5379.02 1.00001"
@@ -123685,6 +124557,7 @@ entity
 {
 	"id" "3755"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "561"
 	"spawnflags" "0"
 	"origin" "4211.67 -5123.52 1.00001"
@@ -123700,6 +124573,7 @@ entity
 {
 	"id" "3756"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "562"
 	"spawnflags" "0"
 	"origin" "4105.19 -5138.85 35"
@@ -123715,6 +124589,7 @@ entity
 {
 	"id" "3757"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "563"
 	"spawnflags" "0"
 	"origin" "3995.42 -5167.62 34"
@@ -123730,6 +124605,7 @@ entity
 {
 	"id" "3758"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "564"
 	"spawnflags" "0"
 	"origin" "4063.53 -5262.7 34"
@@ -123745,6 +124621,7 @@ entity
 {
 	"id" "3759"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "565"
 	"spawnflags" "0"
 	"origin" "4297.01 -5389.04 1.00001"
@@ -123760,6 +124637,7 @@ entity
 {
 	"id" "3760"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "566"
 	"spawnflags" "0"
 	"origin" "4296.07 -5532.29 1.00001"
@@ -123775,6 +124653,7 @@ entity
 {
 	"id" "3761"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "567"
 	"spawnflags" "0"
 	"origin" "4457.99 -5526.16 1.00001"
@@ -123790,6 +124669,7 @@ entity
 {
 	"id" "3762"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "568"
 	"spawnflags" "0"
 	"origin" "4454.62 -5732.14 1.00001"
@@ -123805,6 +124685,7 @@ entity
 {
 	"id" "3763"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "569"
 	"spawnflags" "0"
 	"origin" "4274.86 -5712.04 1.00001"
@@ -123820,6 +124701,7 @@ entity
 {
 	"id" "3764"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "570"
 	"spawnflags" "0"
 	"origin" "4484.92 -5925.08 1.00001"
@@ -123835,6 +124717,7 @@ entity
 {
 	"id" "3765"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "571"
 	"spawnflags" "0"
 	"origin" "4303.84 -5938.2 1.00001"
@@ -123850,6 +124733,7 @@ entity
 {
 	"id" "3766"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "572"
 	"spawnflags" "0"
 	"origin" "4381.17 -5785.24 1.00001"
@@ -123865,6 +124749,7 @@ entity
 {
 	"id" "3767"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "573"
 	"spawnflags" "0"
 	"origin" "4378.13 -5588.01 1.00001"
@@ -123880,6 +124765,7 @@ entity
 {
 	"id" "3768"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "574"
 	"spawnflags" "0"
 	"origin" "4371.26 -5452.08 1.00001"
@@ -123895,6 +124781,7 @@ entity
 {
 	"id" "3769"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "575"
 	"spawnflags" "0"
 	"origin" "4388.04 -5270.93 1.00001"
@@ -123910,6 +124797,7 @@ entity
 {
 	"id" "3770"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "576"
 	"spawnflags" "0"
 	"origin" "4379.06 -5084.03 1.00001"
@@ -123925,6 +124813,7 @@ entity
 {
 	"id" "3771"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "577"
 	"spawnflags" "0"
 	"origin" "4116.59 -5943.55 1.00001"
@@ -123940,6 +124829,7 @@ entity
 {
 	"id" "3772"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "578"
 	"spawnflags" "0"
 	"origin" "4134.09 -5776.43 0.99995"
@@ -123955,6 +124845,7 @@ entity
 {
 	"id" "3773"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "579"
 	"spawnflags" "0"
 	"origin" "4029.71 -5687.05 1.00007"
@@ -123970,6 +124861,7 @@ entity
 {
 	"id" "3774"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "580"
 	"spawnflags" "0"
 	"origin" "4018.39 -5836.39 1.00001"
@@ -123985,6 +124877,7 @@ entity
 {
 	"id" "3775"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "581"
 	"spawnflags" "0"
 	"origin" "3863.61 -5825.6 1.00001"
@@ -124000,6 +124893,7 @@ entity
 {
 	"id" "3776"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "582"
 	"spawnflags" "0"
 	"origin" "3909.39 -5696.5 1.00001"
@@ -124015,6 +124909,7 @@ entity
 {
 	"id" "3777"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "583"
 	"spawnflags" "0"
 	"origin" "3836.17 -5972.68 1.00001"
@@ -124030,6 +124925,7 @@ entity
 {
 	"id" "3778"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "584"
 	"spawnflags" "0"
 	"origin" "3717.82 -5927.73 1.00001"
@@ -124045,6 +124941,7 @@ entity
 {
 	"id" "3779"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "585"
 	"spawnflags" "0"
 	"origin" "3589.94 -5934.35 1.00001"
@@ -124060,6 +124957,7 @@ entity
 {
 	"id" "3780"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "586"
 	"spawnflags" "0"
 	"origin" "3652.11 -6012.49 1.00001"
@@ -124075,6 +124973,7 @@ entity
 {
 	"id" "3781"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "587"
 	"spawnflags" "0"
 	"origin" "3454.02 -6000.35 1.00001"
@@ -124090,6 +124989,7 @@ entity
 {
 	"id" "3782"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "588"
 	"spawnflags" "0"
 	"origin" "3443.1 -5845.69 1.00001"
@@ -124105,6 +125005,7 @@ entity
 {
 	"id" "3783"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "589"
 	"spawnflags" "0"
 	"origin" "3309.78 -5983.98 1.00001"
@@ -124120,6 +125021,7 @@ entity
 {
 	"id" "3784"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "590"
 	"spawnflags" "0"
 	"origin" "3323.11 -5810.27 1.00001"
@@ -124135,6 +125037,7 @@ entity
 {
 	"id" "3785"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "591"
 	"spawnflags" "0"
 	"origin" "3093.01 -5981.48 1.00001"
@@ -124150,6 +125053,7 @@ entity
 {
 	"id" "3786"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "592"
 	"spawnflags" "0"
 	"origin" "3188.42 -5906.91 1.00001"
@@ -124165,6 +125069,7 @@ entity
 {
 	"id" "3787"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "593"
 	"spawnflags" "0"
 	"origin" "2929.34 -5958.39 1.00001"
@@ -124180,6 +125085,7 @@ entity
 {
 	"id" "3788"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "594"
 	"spawnflags" "0"
 	"origin" "3002.18 -5857.11 1.00001"
@@ -124195,6 +125101,7 @@ entity
 {
 	"id" "3789"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "595"
 	"spawnflags" "0"
 	"origin" "2999.52 -5643.04 1.00001"
@@ -124210,6 +125117,7 @@ entity
 {
 	"id" "3790"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "596"
 	"spawnflags" "0"
 	"origin" "3122.09 -5672.93 1.00001"
@@ -124225,6 +125133,7 @@ entity
 {
 	"id" "3791"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "597"
 	"spawnflags" "0"
 	"origin" "3165.54 -5802.25 1.00001"
@@ -124240,6 +125149,7 @@ entity
 {
 	"id" "3792"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "598"
 	"spawnflags" "0"
 	"origin" "3320.64 -5634.15 1.00001"
@@ -124255,6 +125165,7 @@ entity
 {
 	"id" "3793"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "599"
 	"spawnflags" "0"
 	"origin" "3186.11 -5574.25 1.00001"
@@ -124270,6 +125181,7 @@ entity
 {
 	"id" "3794"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "600"
 	"spawnflags" "0"
 	"origin" "3345.05 -5452.2 1.00001"
@@ -124285,6 +125197,7 @@ entity
 {
 	"id" "3795"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "601"
 	"spawnflags" "0"
 	"origin" "3400.05 -5705.92 1.00001"
@@ -124300,6 +125213,7 @@ entity
 {
 	"id" "3796"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "602"
 	"spawnflags" "0"
 	"origin" "3236.23 -5444 1.00001"
@@ -124315,6 +125229,7 @@ entity
 {
 	"id" "3797"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "603"
 	"spawnflags" "0"
 	"origin" "2982.33 -5441.25 1.00001"
@@ -124330,6 +125245,7 @@ entity
 {
 	"id" "3798"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "604"
 	"spawnflags" "0"
 	"origin" "3109.99 -5543.44 1.00001"
@@ -124345,6 +125261,7 @@ entity
 {
 	"id" "3799"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "605"
 	"spawnflags" "0"
 	"origin" "3100.49 -5315.81 1.00001"
@@ -124360,6 +125277,7 @@ entity
 {
 	"id" "3800"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "606"
 	"spawnflags" "0"
 	"origin" "3111.34 -5114.22 1.00001"
@@ -124375,6 +125293,7 @@ entity
 {
 	"id" "3801"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "607"
 	"spawnflags" "0"
 	"origin" "2970.67 -5278.27 1.00001"
@@ -124390,6 +125309,7 @@ entity
 {
 	"id" "3802"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "608"
 	"spawnflags" "0"
 	"origin" "3091.86 -5208.36 1.00001"
@@ -124405,6 +125325,7 @@ entity
 {
 	"id" "3803"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "609"
 	"spawnflags" "0"
 	"origin" "2968.53 -5091.07 1.00001"
@@ -124420,6 +125341,7 @@ entity
 {
 	"id" "3804"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "610"
 	"spawnflags" "0"
 	"origin" "2986.97 -4916.24 1.00001"
@@ -124435,6 +125357,7 @@ entity
 {
 	"id" "3805"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "611"
 	"spawnflags" "0"
 	"origin" "3137.81 -4886.39 1.00001"
@@ -124450,6 +125373,7 @@ entity
 {
 	"id" "3806"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "612"
 	"spawnflags" "0"
 	"origin" "3263.83 -4913.24 1.00001"
@@ -124465,6 +125389,7 @@ entity
 {
 	"id" "3807"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "613"
 	"spawnflags" "0"
 	"origin" "3377.17 -4998.54 1.00001"
@@ -124480,6 +125405,7 @@ entity
 {
 	"id" "3808"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "614"
 	"spawnflags" "0"
 	"origin" "3399.07 -4867.53 1.00001"
@@ -124495,6 +125421,7 @@ entity
 {
 	"id" "3809"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "615"
 	"spawnflags" "0"
 	"origin" "3542.21 -5129.52 157.326"
@@ -124510,6 +125437,7 @@ entity
 {
 	"id" "3810"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "616"
 	"spawnflags" "0"
 	"origin" "3540.35 -5238.7 157.326"
@@ -124525,6 +125453,7 @@ entity
 {
 	"id" "3811"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "617"
 	"spawnflags" "0"
 	"origin" "3604.48 -5538.4 157.326"
@@ -124540,6 +125469,7 @@ entity
 {
 	"id" "3812"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "618"
 	"spawnflags" "0"
 	"origin" "3716.76 -5535.48 157.326"
@@ -124555,6 +125485,7 @@ entity
 {
 	"id" "3813"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "619"
 	"spawnflags" "0"
 	"origin" "3872.62 -5386.69 157.326"
@@ -124570,6 +125501,7 @@ entity
 {
 	"id" "3814"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "620"
 	"spawnflags" "0"
 	"origin" "3884.45 -5511.83 157.326"
@@ -124585,6 +125517,7 @@ entity
 {
 	"id" "3815"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "621"
 	"spawnflags" "0"
 	"origin" "3870.56 -4887.25 157.326"
@@ -124600,6 +125533,7 @@ entity
 {
 	"id" "3816"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "622"
 	"spawnflags" "0"
 	"origin" "3859.62 -4993.59 157.326"
@@ -124615,6 +125549,7 @@ entity
 {
 	"id" "3817"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "623"
 	"spawnflags" "0"
 	"origin" "3775.49 -5421.31 149.326"
@@ -124630,6 +125565,7 @@ entity
 {
 	"id" "3818"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "624"
 	"spawnflags" "0"
 	"origin" "3653.48 -5429.2 149.326"
@@ -124645,6 +125581,7 @@ entity
 {
 	"id" "3819"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "625"
 	"spawnflags" "0"
 	"origin" "3590.85 -5406.39 149.326"
@@ -124660,6 +125597,7 @@ entity
 {
 	"id" "3820"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "626"
 	"spawnflags" "0"
 	"origin" "3652.36 -5264.83 149.326"
@@ -124675,6 +125613,7 @@ entity
 {
 	"id" "3821"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "627"
 	"spawnflags" "0"
 	"origin" "3800.65 -5247.5 149.326"
@@ -124690,6 +125629,7 @@ entity
 {
 	"id" "3822"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "628"
 	"spawnflags" "0"
 	"origin" "3803.98 -5127.49 149.326"
@@ -124705,6 +125645,7 @@ entity
 {
 	"id" "3823"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "629"
 	"spawnflags" "0"
 	"origin" "3666.97 -5138.92 149.326"
@@ -124720,6 +125661,7 @@ entity
 {
 	"id" "3824"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "630"
 	"spawnflags" "0"
 	"origin" "3676.53 -5035.92 149.326"
@@ -124735,6 +125677,7 @@ entity
 {
 	"id" "3825"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "631"
 	"spawnflags" "0"
 	"origin" "3806.12 -4883.47 149.326"
@@ -124750,6 +125693,7 @@ entity
 {
 	"id" "3826"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "632"
 	"spawnflags" "0"
 	"origin" "3660.17 -4905.85 149.326"
@@ -124765,6 +125709,7 @@ entity
 {
 	"id" "3827"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "633"
 	"spawnflags" "0"
 	"origin" "3589.43 -4956.26 149.326"
@@ -124780,6 +125725,7 @@ entity
 {
 	"id" "3828"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "634"
 	"spawnflags" "0"
 	"origin" "3648 -4580 159"
@@ -124795,6 +125741,7 @@ entity
 {
 	"id" "3829"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "635"
 	"spawnflags" "0"
 	"origin" "3597.94 -4666.51 153.326"
@@ -124810,6 +125757,7 @@ entity
 {
 	"id" "3830"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "636"
 	"spawnflags" "0"
 	"origin" "3685.76 -4663.46 153.326"
@@ -124825,6 +125773,7 @@ entity
 {
 	"id" "3831"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "637"
 	"spawnflags" "0"
 	"origin" "3648 -4476 159"
@@ -124840,6 +125789,7 @@ entity
 {
 	"id" "3832"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "638"
 	"spawnflags" "0"
 	"origin" "3645.37 -4368.39 153.326"
@@ -124855,6 +125805,7 @@ entity
 {
 	"id" "3833"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "639"
 	"spawnflags" "0"
 	"origin" "3629.23 -4206.29 153.326"
@@ -124870,6 +125821,7 @@ entity
 {
 	"id" "3834"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "640"
 	"spawnflags" "0"
 	"origin" "3523.08 -4202.83 161.326"
@@ -124885,6 +125837,7 @@ entity
 {
 	"id" "3835"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "641"
 	"spawnflags" "0"
 	"origin" "3519.51 -4361.65 161.326"
@@ -124900,6 +125853,7 @@ entity
 {
 	"id" "3836"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "642"
 	"spawnflags" "0"
 	"origin" "3505.24 -4457.59 161.326"
@@ -124915,6 +125869,7 @@ entity
 {
 	"id" "3837"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "643"
 	"spawnflags" "0"
 	"origin" "3768.8 -4193.62 161.326"
@@ -124930,6 +125885,7 @@ entity
 {
 	"id" "3838"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "644"
 	"spawnflags" "0"
 	"origin" "3762.6 -4369.27 161.326"
@@ -124945,6 +125901,7 @@ entity
 {
 	"id" "3839"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "645"
 	"spawnflags" "0"
 	"origin" "3766.07 -4459.44 161.326"
@@ -124960,6 +125917,7 @@ entity
 {
 	"id" "3840"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "646"
 	"spawnflags" "0"
 	"origin" "3830.4 -4301.06 161.326"
@@ -124975,6 +125933,7 @@ entity
 {
 	"id" "3841"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "647"
 	"spawnflags" "0"
 	"origin" "3846.07 -4396.91 161.326"
@@ -124990,6 +125949,7 @@ entity
 {
 	"id" "3842"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "648"
 	"spawnflags" "0"
 	"origin" "3652.84 -4279.03 153.326"
@@ -125005,6 +125965,7 @@ entity
 {
 	"id" "3843"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "649"
 	"spawnflags" "0"
 	"origin" "3459.97 -4264.55 161.326"
@@ -125020,6 +125981,7 @@ entity
 {
 	"id" "3844"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "650"
 	"spawnflags" "0"
 	"origin" "3439.74 -4431.77 161.326"
@@ -125040,21 +126002,29 @@ entity
 	"AlienOrderTargetName" "Room56_mortarbug_target"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "1"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "0"
 	"targetname" "Room56_exit_window_spawners"
+	"teslablesp" "1"
 	connections
 	{
 		"OnSpawned" "Room56_exit_window_01Break0-1"
@@ -125076,21 +126046,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "1"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "0"
 	"targetname" "Room56_exit_window_spawners"
+	"teslablesp" "1"
 	"origin" "4448 -4608 1.00001"
 	editor
 	{
@@ -125104,6 +126082,7 @@ entity
 {
 	"id" "3847"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "651"
 	"spawnflags" "0"
 	"origin" "3187.74 -4674.1 1.00001"
@@ -125119,6 +126098,7 @@ entity
 {
 	"id" "3848"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "652"
 	"spawnflags" "0"
 	"origin" "3079.64 -4676 1.00001"
@@ -125134,6 +126114,7 @@ entity
 {
 	"id" "3849"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "653"
 	"spawnflags" "0"
 	"origin" "2982.59 -4690.07 1.00001"
@@ -125149,6 +126130,7 @@ entity
 {
 	"id" "3850"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "654"
 	"spawnflags" "0"
 	"origin" "3113.51 -4731.18 1.00001"
@@ -125164,6 +126146,7 @@ entity
 {
 	"id" "3851"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "655"
 	"spawnflags" "0"
 	"origin" "3155.16 -4604.12 1.00001"
@@ -125179,6 +126162,7 @@ entity
 {
 	"id" "3852"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "656"
 	"spawnflags" "0"
 	"origin" "3001.46 -4601.3 1.00001"
@@ -125194,6 +126178,7 @@ entity
 {
 	"id" "3853"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "657"
 	"spawnflags" "0"
 	"origin" "3237.48 -4594.2 1.00003"
@@ -125209,6 +126194,7 @@ entity
 {
 	"id" "3854"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "658"
 	"spawnflags" "0"
 	"origin" "4543.16 -4713.13 1.00001"
@@ -125224,6 +126210,7 @@ entity
 {
 	"id" "3855"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "659"
 	"spawnflags" "0"
 	"origin" "4446.16 -4705.78 0.999996"
@@ -125239,6 +126226,7 @@ entity
 {
 	"id" "3856"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "660"
 	"spawnflags" "0"
 	"origin" "4348.97 -4709.69 0.999996"
@@ -125254,6 +126242,7 @@ entity
 {
 	"id" "3857"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "661"
 	"spawnflags" "0"
 	"origin" "4240.08 -4709.95 1.00001"
@@ -125269,6 +126258,7 @@ entity
 {
 	"id" "3858"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "662"
 	"spawnflags" "0"
 	"origin" "4263.86 -4633.75 1.00001"
@@ -125284,6 +126274,7 @@ entity
 {
 	"id" "3859"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "663"
 	"spawnflags" "0"
 	"origin" "4315.37 -4598.79 1.00001"
@@ -125299,6 +126290,7 @@ entity
 {
 	"id" "3860"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "664"
 	"spawnflags" "0"
 	"origin" "4388.76 -4604.51 1.00001"
@@ -125314,6 +126306,7 @@ entity
 {
 	"id" "3861"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "665"
 	"spawnflags" "0"
 	"origin" "4377.87 -4654.35 1.00001"
@@ -125329,6 +126322,7 @@ entity
 {
 	"id" "3862"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "666"
 	"spawnflags" "0"
 	"origin" "4519.78 -4591.63 0.999996"
@@ -125344,6 +126338,7 @@ entity
 {
 	"id" "3863"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "667"
 	"spawnflags" "0"
 	"origin" "2889.57 -4711.02 1.00001"
@@ -125359,6 +126354,7 @@ entity
 {
 	"id" "3864"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "668"
 	"spawnflags" "0"
 	"origin" "2899.43 -4601.28 1.00001"
@@ -125374,6 +126370,7 @@ entity
 {
 	"id" "3865"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "669"
 	"spawnflags" "0"
 	"origin" "3087.77 -4603.12 1.00001"
@@ -125389,6 +126386,7 @@ entity
 {
 	"id" "3866"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "670"
 	"spawnflags" "0"
 	"origin" "4217.02 -4593.38 1.00001"
@@ -125404,6 +126402,7 @@ entity
 {
 	"id" "3867"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "671"
 	"spawnflags" "0"
 	"origin" "4216.78 -5845.27 1.00001"
@@ -125419,6 +126418,7 @@ entity
 {
 	"id" "3868"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "672"
 	"spawnflags" "0"
 	"origin" "4393.75 -5958.25 1.00001"
@@ -125434,6 +126434,7 @@ entity
 {
 	"id" "3869"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "673"
 	"spawnflags" "0"
 	"origin" "4125.05 -6032.51 1.00001"
@@ -125449,6 +126450,7 @@ entity
 {
 	"id" "3870"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "674"
 	"spawnflags" "0"
 	"origin" "4475.68 -5837.1 1.00001"
@@ -125464,6 +126466,7 @@ entity
 {
 	"id" "3871"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "675"
 	"spawnflags" "0"
 	"origin" "4189.87 -5643.63 1.00001"
@@ -125479,6 +126482,7 @@ entity
 {
 	"id" "3872"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "676"
 	"spawnflags" "0"
 	"origin" "3086.26 -5781.85 1.00001"
@@ -125494,6 +126498,7 @@ entity
 {
 	"id" "3873"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "677"
 	"spawnflags" "0"
 	"origin" "3250.29 -5693.07 1.00001"
@@ -125509,6 +126514,7 @@ entity
 {
 	"id" "3874"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "678"
 	"spawnflags" "0"
 	"origin" "3037.48 -5045.24 1.00001"
@@ -126075,21 +127081,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 180 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "1"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room56_drone_burrowed"
+	"teslablesp" "1"
 	"origin" "3930 -5920 1.00001"
 	editor
 	{
@@ -126107,21 +127121,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "1"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room56_drone_burrowed"
+	"teslablesp" "1"
 	"origin" "4255 -5287 1.00001"
 	editor
 	{
@@ -126139,21 +127161,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 90 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "1"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room56_drone_burrowed"
+	"teslablesp" "1"
 	"origin" "4255 -5065 1.00001"
 	editor
 	{
@@ -126171,21 +127201,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "1"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room56_drone_burrowed"
+	"teslablesp" "1"
 	"origin" "3160 -4993 1.00001"
 	editor
 	{
@@ -126203,21 +127241,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "1"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "Room56_drone_burrowed"
+	"teslablesp" "1"
 	"origin" "3159 -5490 1.00001"
 	editor
 	{
@@ -126428,21 +127474,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "1"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "0"
 	"targetname" "Room56_exit_boomers"
+	"teslablesp" "1"
 	"origin" "4518.32 -5978.92 1.00001"
 	editor
 	{
@@ -126460,21 +127514,29 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "1"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "1"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "0"
 	"targetname" "Room56_exit_boomers"
+	"teslablesp" "1"
 	"origin" "2912 -5968 1.00001"
 	editor
 	{
@@ -139122,6 +140184,7 @@ entity
 {
 	"id" "34649"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	"origin" "-292.063 -9266.23 1.47205"
 	editor
@@ -139136,6 +140199,7 @@ entity
 {
 	"id" "34651"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139154,6 +140218,7 @@ entity
 {
 	"id" "34653"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139172,6 +140237,7 @@ entity
 {
 	"id" "34655"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139190,6 +140256,7 @@ entity
 {
 	"id" "34657"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139208,6 +140275,7 @@ entity
 {
 	"id" "34659"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139227,6 +140295,7 @@ entity
 {
 	"id" "34661"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139245,6 +140314,7 @@ entity
 {
 	"id" "34663"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139263,6 +140333,7 @@ entity
 {
 	"id" "34665"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139281,6 +140352,7 @@ entity
 {
 	"id" "34667"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139299,6 +140371,7 @@ entity
 {
 	"id" "34669"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139317,6 +140390,7 @@ entity
 {
 	"id" "34671"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139373,6 +140447,7 @@ entity
 {
 	"id" "34679"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139391,6 +140466,7 @@ entity
 {
 	"id" "34681"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139409,6 +140485,7 @@ entity
 {
 	"id" "34683"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139427,6 +140504,7 @@ entity
 {
 	"id" "34685"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139445,6 +140523,7 @@ entity
 {
 	"id" "34687"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139463,6 +140542,7 @@ entity
 {
 	"id" "34689"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139481,6 +140561,7 @@ entity
 {
 	"id" "34691"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139499,6 +140580,7 @@ entity
 {
 	"id" "34693"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139517,6 +140599,7 @@ entity
 {
 	"id" "34695"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139535,6 +140618,7 @@ entity
 {
 	"id" "34697"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139553,6 +140637,7 @@ entity
 {
 	"id" "34699"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139571,6 +140656,7 @@ entity
 {
 	"id" "34701"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139590,6 +140676,7 @@ entity
 {
 	"id" "34703"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139608,6 +140695,7 @@ entity
 {
 	"id" "34705"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139626,6 +140714,7 @@ entity
 {
 	"id" "34707"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139644,6 +140733,7 @@ entity
 {
 	"id" "34709"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139662,6 +140752,7 @@ entity
 {
 	"id" "34711"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139681,6 +140772,7 @@ entity
 {
 	"id" "34713"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139699,6 +140791,7 @@ entity
 {
 	"id" "34715"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139717,6 +140810,7 @@ entity
 {
 	"id" "34717"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139735,6 +140829,7 @@ entity
 {
 	"id" "34719"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139753,6 +140848,7 @@ entity
 {
 	"id" "34721"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139771,6 +140867,7 @@ entity
 {
 	"id" "34723"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139789,6 +140886,7 @@ entity
 {
 	"id" "34725"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139807,6 +140905,7 @@ entity
 {
 	"id" "34727"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139825,6 +140924,7 @@ entity
 {
 	"id" "34729"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139843,6 +140943,7 @@ entity
 {
 	"id" "34731"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139861,6 +140962,7 @@ entity
 {
 	"id" "34733"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139879,6 +140981,7 @@ entity
 {
 	"id" "34735"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139897,6 +141000,7 @@ entity
 {
 	"id" "34737"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139915,6 +141019,7 @@ entity
 {
 	"id" "34739"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139933,6 +141038,7 @@ entity
 {
 	"id" "34741"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139951,6 +141057,7 @@ entity
 {
 	"id" "34743"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139969,6 +141076,7 @@ entity
 {
 	"id" "34745"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -139987,6 +141095,7 @@ entity
 {
 	"id" "34747"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140005,6 +141114,7 @@ entity
 {
 	"id" "34749"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140023,6 +141133,7 @@ entity
 {
 	"id" "34751"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140042,6 +141153,7 @@ entity
 {
 	"id" "34753"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140060,6 +141172,7 @@ entity
 {
 	"id" "34755"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140078,6 +141191,7 @@ entity
 {
 	"id" "34757"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140096,6 +141210,7 @@ entity
 {
 	"id" "34759"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140114,6 +141229,7 @@ entity
 {
 	"id" "34761"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140132,6 +141248,7 @@ entity
 {
 	"id" "34763"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140150,6 +141267,7 @@ entity
 {
 	"id" "34765"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140169,6 +141287,7 @@ entity
 {
 	"id" "34767"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140187,6 +141306,7 @@ entity
 {
 	"id" "34769"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140205,6 +141325,7 @@ entity
 {
 	"id" "34771"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140223,6 +141344,7 @@ entity
 {
 	"id" "34773"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140241,6 +141363,7 @@ entity
 {
 	"id" "34775"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140260,6 +141383,7 @@ entity
 {
 	"id" "34777"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140278,6 +141402,7 @@ entity
 {
 	"id" "34779"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140296,6 +141421,7 @@ entity
 {
 	"id" "34781"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140314,6 +141440,7 @@ entity
 {
 	"id" "34783"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140332,6 +141459,7 @@ entity
 {
 	"id" "34785"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140350,6 +141478,7 @@ entity
 {
 	"id" "34787"
 	"classname" "asw_egg"
+	"angles" "0 0 0"
 	"ParasiteClass" "asw_parasite"
 	connections
 	{
@@ -140638,15 +141767,23 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "10"
+	"sizescalesp" "1.0"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
+	"teslablesp" "1"
 	"origin" "-530.341 -9326.78 1"
 	editor
 	{
@@ -140663,15 +141800,23 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "10"
+	"sizescalesp" "1.0"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
+	"teslablesp" "1"
 	"origin" "-480 -9296 1"
 	editor
 	{
@@ -140688,15 +141833,23 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "10"
+	"sizescalesp" "1.0"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
+	"teslablesp" "1"
 	"origin" "198.504 -9854.21 7.15256e-007"
 	editor
 	{
@@ -140713,15 +141866,23 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "10"
+	"sizescalesp" "1.0"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
+	"teslablesp" "1"
 	"origin" "1151.05 -10023.4 7.15256e-007"
 	editor
 	{
@@ -140738,15 +141899,23 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "10"
+	"sizescalesp" "1.0"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
+	"teslablesp" "1"
 	"origin" "-1495.14 -9139.57 7.15256e-007"
 	editor
 	{
@@ -140763,15 +141932,23 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "10"
+	"sizescalesp" "1.0"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
+	"teslablesp" "1"
 	"origin" "-1073.01 -8115.26 7.15256e-007"
 	editor
 	{
@@ -140788,15 +141965,23 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "10"
+	"sizescalesp" "1.0"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
+	"teslablesp" "1"
 	"origin" "-39.8304 -8362.75 7.15256e-007"
 	editor
 	{
@@ -140813,15 +141998,23 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "10"
+	"sizescalesp" "1.0"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
+	"teslablesp" "1"
 	"origin" "-92.1929 -8611.29 7.15256e-007"
 	editor
 	{
@@ -140838,15 +142031,23 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "10"
+	"sizescalesp" "1.0"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
+	"teslablesp" "1"
 	"origin" "395.781 -7525.69 7.15256e-007"
 	editor
 	{
@@ -140863,15 +142064,23 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "10"
+	"sizescalesp" "1.0"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
+	"teslablesp" "1"
 	"origin" "1311.84 -7793.5 7.15256e-007"
 	editor
 	{
@@ -140888,15 +142097,23 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "10"
+	"sizescalesp" "1.0"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
+	"teslablesp" "1"
 	"origin" "1331.97 -5739.11 7.15256e-007"
 	editor
 	{
@@ -140913,15 +142130,23 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "10"
+	"sizescalesp" "1.0"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
+	"teslablesp" "1"
 	"origin" "1229.71 -4620.89 7.15256e-007"
 	editor
 	{
@@ -140938,15 +142163,23 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "10"
+	"sizescalesp" "1.0"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
+	"teslablesp" "1"
 	"origin" "2024.35 -5749.68 7.15256e-007"
 	editor
 	{
@@ -140963,15 +142196,23 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "10"
+	"sizescalesp" "1.0"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
+	"teslablesp" "1"
 	"origin" "2504.06 -6431.41 7.15256e-007"
 	editor
 	{
@@ -140988,15 +142229,23 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "10"
+	"sizescalesp" "1.0"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
+	"teslablesp" "1"
 	"origin" "1695.86 -5762.13 7.15256e-007"
 	editor
 	{
@@ -141390,9 +142639,11 @@ entity
 {
 	"id" "51638"
 	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
 	"completemessage" "Access Granted"
 	"hacklevel" "0"
 	"locked" "1"
+	"needstech" "1"
 	"nopower" "0"
 	"numwires" "2"
 	"origin" "1057.4 -10169 76"
@@ -141873,10 +143124,11 @@ entity
 	"id" "51839"
 	"classname" "asw_ammo_drop"
 	"angles" "0 323 0"
+	"percent_remaining" "100"
 	"origin" "-1225 -7984 0.25"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -142776,6 +144028,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"FreezePickup" "No"
+	"SkinNumber" "2"
 	"origin" "444 -4486 0.296082"
 	editor
 	{
@@ -142974,10 +144227,11 @@ entity
 	"id" "52783"
 	"classname" "asw_ammo_drop"
 	"angles" "0 218.5 0"
+	"percent_remaining" "100"
 	"origin" "730.283 -5510.4 0.516037"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -143108,17 +144362,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "4"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass01_drones"
+	"teslablesp" "1"
 	"origin" "-144 -8747 7.15256e-007"
 	editor
 	{
@@ -143135,17 +144397,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "4"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass01_drones"
+	"teslablesp" "1"
 	"origin" "-68 -8734 7.15256e-007"
 	editor
 	{
@@ -143162,17 +144432,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "4"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass01_drones"
+	"teslablesp" "1"
 	"origin" "14 -8744 7.15256e-007"
 	editor
 	{
@@ -143823,10 +145101,11 @@ entity
 	"id" "64394"
 	"classname" "asw_ammo_drop"
 	"angles" "0 117.5 0"
+	"percent_remaining" "100"
 	"origin" "1387 -8089 0.516037"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -144354,10 +145633,11 @@ entity
 	"id" "64536"
 	"classname" "asw_ammo_drop"
 	"angles" "0 117.5 0"
+	"percent_remaining" "100"
 	"origin" "136.648 -5120.94 1.25"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -144786,10 +146066,11 @@ entity
 	"id" "65684"
 	"classname" "asw_ammo_drop"
 	"angles" "0 117.5 0"
+	"percent_remaining" "100"
 	"origin" "3407 -5511 0.516037"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -144820,17 +146101,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass02_drones"
+	"teslablesp" "1"
 	"origin" "295 -7281 7.15256e-007"
 	editor
 	{
@@ -144847,17 +146136,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass02_drones"
+	"teslablesp" "1"
 	"origin" "213 -7271 7.15256e-007"
 	editor
 	{
@@ -144874,17 +146171,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass02_drones"
+	"teslablesp" "1"
 	"origin" "137 -7284 7.15256e-007"
 	editor
 	{
@@ -144901,17 +146206,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass03_drones"
+	"teslablesp" "1"
 	"origin" "-1073 -8465 7.15256e-007"
 	editor
 	{
@@ -144928,17 +146241,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass03_drones"
+	"teslablesp" "1"
 	"origin" "-1149 -8478 7.15256e-007"
 	editor
 	{
@@ -144955,17 +146276,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass03_drones"
+	"teslablesp" "1"
 	"origin" "-991 -8475 7.15256e-007"
 	editor
 	{
@@ -144982,17 +146311,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass03_drones"
+	"teslablesp" "1"
 	"origin" "-137.737 -9792.15 7.15256e-007"
 	editor
 	{
@@ -145009,17 +146346,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass03_drones"
+	"teslablesp" "1"
 	"origin" "-219.737 -9782.15 7.15256e-007"
 	editor
 	{
@@ -145036,17 +146381,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass03_drones"
+	"teslablesp" "1"
 	"origin" "-295.737 -9795.15 7.15256e-007"
 	editor
 	{
@@ -145063,17 +146416,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass03_drones"
+	"teslablesp" "1"
 	"origin" "1373 -8139 7.15256e-007"
 	editor
 	{
@@ -145090,17 +146451,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass03_drones"
+	"teslablesp" "1"
 	"origin" "1291 -8129 7.15256e-007"
 	editor
 	{
@@ -145117,17 +146486,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass03_drones"
+	"teslablesp" "1"
 	"origin" "1215 -8142 7.15256e-007"
 	editor
 	{
@@ -145144,17 +146521,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass04_drones"
+	"teslablesp" "1"
 	"origin" "-2808 -9341 7.15256e-007"
 	editor
 	{
@@ -145171,17 +146556,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass04_drones"
+	"teslablesp" "1"
 	"origin" "-2890 -9331 7.15256e-007"
 	editor
 	{
@@ -145198,17 +146591,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass04_drones"
+	"teslablesp" "1"
 	"origin" "-2966 -9344 7.15256e-007"
 	editor
 	{
@@ -145225,17 +146626,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass05_drones"
+	"teslablesp" "1"
 	"origin" "1186 -5578 7.15256e-007"
 	editor
 	{
@@ -145252,17 +146661,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass05_drones"
+	"teslablesp" "1"
 	"origin" "1104 -5568 7.15256e-007"
 	editor
 	{
@@ -145279,17 +146696,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass05_drones"
+	"teslablesp" "1"
 	"origin" "1028 -5581 7.15256e-007"
 	editor
 	{
@@ -145306,17 +146731,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass05_drones"
+	"teslablesp" "1"
 	"origin" "2672 -5931 7.15256e-007"
 	editor
 	{
@@ -145333,17 +146766,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass05_drones"
+	"teslablesp" "1"
 	"origin" "2590 -5921 7.15256e-007"
 	editor
 	{
@@ -145360,17 +146801,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "biomass05_drones"
+	"teslablesp" "1"
 	"origin" "2514 -5934 7.15256e-007"
 	editor
 	{
@@ -145438,17 +146887,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "egg_drones01"
+	"teslablesp" "1"
 	"origin" "-81 -6529 7.15256e-007"
 	editor
 	{
@@ -145465,17 +146922,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "egg_drones01"
+	"teslablesp" "1"
 	"origin" "-157 -6542 7.15256e-007"
 	editor
 	{
@@ -145492,17 +146957,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "egg_drones01"
+	"teslablesp" "1"
 	"origin" "1338 -8241 7.15256e-007"
 	editor
 	{
@@ -145519,17 +146992,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "egg_drones01"
+	"teslablesp" "1"
 	"origin" "1262 -8254 7.15256e-007"
 	editor
 	{
@@ -145546,17 +147027,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "egg_drones02"
+	"teslablesp" "1"
 	"origin" "1212 -6485 7.15256e-007"
 	editor
 	{
@@ -145573,17 +147062,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "egg_drones02"
+	"teslablesp" "1"
 	"origin" "1136 -6498 7.15256e-007"
 	editor
 	{
@@ -145600,17 +147097,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "egg_drones02"
+	"teslablesp" "1"
 	"origin" "2913 -5760 7.15256e-007"
 	editor
 	{
@@ -145627,17 +147132,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "egg_drones02"
+	"teslablesp" "1"
 	"origin" "2837 -5773 7.15256e-007"
 	editor
 	{
@@ -145654,17 +147167,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "egg_drones03"
+	"teslablesp" "1"
 	"origin" "1250 -5915 7.15256e-007"
 	editor
 	{
@@ -145681,17 +147202,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "egg_drones03"
+	"teslablesp" "1"
 	"origin" "1174 -5928 7.15256e-007"
 	editor
 	{
@@ -145708,17 +147237,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"LongRange" "1"
 	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "50"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"targetname" "egg_drones03"
+	"teslablesp" "1"
 	"origin" "1327 -5878 7.15256e-007"
 	editor
 	{
@@ -147426,22 +148963,30 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "0"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "0"
 	"NumAliens" "8"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "2"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "window_drone01"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_OFF_RAIL_52"
 	"UnburrowIdleActivity" "ACT_CLIMB_OFF_RAIL_IDLE"
 	"origin" "1123.83 -9494.04 -7.62939e-006"
@@ -147559,22 +149104,30 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "0"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "0"
 	"NumAliens" "8"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "2"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "window_drone01"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_OFF_RAIL_52"
 	"UnburrowIdleActivity" "ACT_CLIMB_OFF_RAIL_IDLE"
 	"origin" "352 -9504 0"
@@ -147594,22 +149147,30 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "0"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "0"
 	"NumAliens" "8"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "2"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "window_drone02"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_OFF_RAIL_52"
 	"UnburrowIdleActivity" "ACT_CLIMB_OFF_RAIL_IDLE"
 	"origin" "-1436 -8984 0"
@@ -147756,22 +149317,30 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "0"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "0"
 	"NumAliens" "8"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "2"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "window_drone03"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_OFF_RAIL_52"
 	"UnburrowIdleActivity" "ACT_CLIMB_OFF_RAIL_IDLE"
 	"origin" "-1256 -8092 0"
@@ -147889,22 +149458,30 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "0"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "0"
 	"NumAliens" "8"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "2"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "window_drone04"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_OFF_RAIL_52"
 	"UnburrowIdleActivity" "ACT_CLIMB_OFF_RAIL_IDLE"
 	"origin" "-488 -7584 1.52588e-005"
@@ -148022,22 +149599,30 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 180 0"
 	"ClearCheck" "0"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "0"
 	"NumAliens" "8"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "2"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "window_drone05"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_OFF_RAIL_52"
 	"UnburrowIdleActivity" "ACT_CLIMB_OFF_RAIL_IDLE"
 	"origin" "1512 -7520 0"
@@ -148155,22 +149740,30 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 180 0"
 	"ClearCheck" "0"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "2"
+	"maxoffset" "0 0 0"
 	"MaxSkillLevel" "0"
+	"minoffset" "0 0 0"
 	"MinSkillLevel" "0"
 	"NearDistance" "0"
 	"NumAliens" "8"
+	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "2"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1.0"
 	"StartBurrowed" "1"
 	"targetname" "window_drone06"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_OFF_RAIL_52"
 	"UnburrowIdleActivity" "ACT_CLIMB_OFF_RAIL_IDLE"
 	"origin" "1512 -6500 0"
@@ -148309,8 +149902,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[320.067 -9900.29 210.496]"
-		"look" "[301.492 -9825.76 -43.8787]"
+		"position" "[3086.77 -5586.73 443.548]"
+		"look" "[3260.3 -5506.56 258.971]"
 	}
 }
 cordons
