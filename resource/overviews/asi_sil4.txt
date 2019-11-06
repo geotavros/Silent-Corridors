@@ -9,7 +9,7 @@ GAME
 	
 	"missiontitle"		"Corridor"
 	"description"	    ""
-	"image"		        "swarm/objectivepics/silentcorridors1laboratory_eggs"
+	"image"		        "swarm/objectivepics/silentcorridors3c"
 	
 	"version"		    "1.7"
 	"author"      		"Dmitriy"

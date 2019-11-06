@@ -8,7 +8,7 @@ GAME
 	"briefingmaterial"  "vgui/swarm/overviews/asi_sil2_overview"	
 	"missiontitle"		"Research Complex"
 	"description"	    ""
-	"image"		        "swarm/objectivepics/silentcorridors1laboratory_eggs"
+	"image"		        "swarm/objectivepics/silentcorridors2rc"
 	
 	"version"		    "1.8"
 	"author"      		"Dmitriy"
